@@ -1,0 +1,5597 @@
+{
+  "chummer": {
+    "skillgroups": {
+      "name": [
+        "Acting",
+        "Athletics",
+        "Biotech",
+        "Close Combat",
+        "Conjuring",
+        "Cracking",
+        "Electronics",
+        "Enchanting",
+        "Firearms",
+        "Influence",
+        "Engineering",
+        "Outdoors",
+        "Sorcery",
+        "Stealth",
+        "Tasking"
+      ]
+    },
+    "knowledgeskills": {
+      "skill": [
+        {
+          "name": "Administration",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Corporate",
+              "Government",
+              "Religious"
+            ]
+          },
+          "skillgroup": {},
+          "id": "9f348c99-27e8-47ac-a098-a8a6a54c446a",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Alchemy",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Combat",
+              "Command",
+              "Contact",
+              "Detection",
+              "Health",
+              "Illusion",
+              "Manipulation",
+              "Time",
+              "[Trigger]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "60156c75-78e9-4d79-af3f-494baa20edb7",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Alcohol",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Beers",
+              "Coolers",
+              "Hard Liquor",
+              "Wines",
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan",
+              "N. America",
+              "S. America",
+              "Central America",
+              "Antarctica",
+              "Africa",
+              "Western Europe",
+              "Eastern Europe",
+              "Northern Europe",
+              "Asia - Pacific",
+              "Asia - Minor",
+              "Middle East",
+              "Australia"
+            ]
+          },
+          "skillgroup": {},
+          "id": "40d28f1b-2171-4a3b-a640-6b097a4dea95",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Anishinaabe",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "f43b2a75-a556-4d3a-8f8b-f1615a78538c",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Anatomy",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "534600a0-395e-4bbc-8dc9-97a007e97504",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Arabic",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "05eb2251-81aa-4dfb-8619-75102fc7b895",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Architecture",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Art Nouveau",
+              "Brutalist",
+              "Commercial",
+              "Residential",
+              "Elven",
+              "Orkish",
+              "Medieval",
+              "Gothic",
+              "Renaissance",
+              "Baroque",
+              "Victorian",
+              "Neo-Classical",
+              "Modern",
+              "High-Tech"
+            ]
+          },
+          "skillgroup": {},
+          "id": "6cc80a0b-a9e2-46fe-8951-af4f34bfe3b3",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Area Knowledge: Atlanta",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "3ea2eb75-69d3-4ecd-9f63-6dfc690cadf8",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Area Knowledge: Cheyenne",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "ad99dbbc-e1b3-46a2-82cc-8f5ec4bfbed2",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Area Knowledge: Chicago",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Chicago Matrix",
+              "Containment Zone",
+              "Matrix Hot Spots",
+              "Safe Houses"
+            ]
+          },
+          "skillgroup": {},
+          "id": "c8b1f29f-38d7-4364-b160-7b163f6bf715",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Area Knowledge: Denver",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "4952de53-b333-45cd-bceb-cffe57b1e5a6",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Area Knowledge: FDC",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "67885d5a-4e26-40d9-8196-eebc7a2e49ec",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Area Knowledge: Hong Kong",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "8337e83f-af9a-4396-9cbe-0e6679e15b4e",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Area Knowledge: LA",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "7041437e-b98b-4605-a95a-c93ed45f1de5",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Area Knowledge: Manhattan",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "eec57f7e-0e91-4a58-8b0e-5d3de98b7b44",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Area Knowledge: Neo-Tokyo",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "8879baa1-4e10-4667-bd00-62f4f594dbbb",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Area Knowledge: Portland",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "f9f9badb-0f5e-4662-8b34-fdd8e2994caa",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Area Knowledge: Seattle",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Auburn",
+              "Bellevue",
+              "Council Island",
+              "Downtown",
+              "Everett",
+              "Fort Lewis",
+              "Matrix Hot Spots",
+              "Puyallup",
+              "Redmond",
+              "Renton",
+              "Safe Houses",
+              "Snohomish",
+              "Outremer",
+              "Seattle Matrix",
+              "Salish-Shide",
+              "Tacoma"
+            ]
+          },
+          "skillgroup": {},
+          "id": "822b059f-c132-45ee-8c0b-df6912d5c862",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Art",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Da Vinci",
+              "Monet",
+              "Matisse",
+              "Michelangelo",
+              "Picasso",
+              "Rembrandt",
+              "Van Gogh",
+              "N. America",
+              "S. America",
+              "Central America",
+              "Antarctica",
+              "Africa",
+              "Western Europe",
+              "Eastern Europe",
+              "Northern Europe",
+              "Asia - Pacific",
+              "Asia - Minor",
+              "Middle East",
+              "Australia"
+            ]
+          },
+          "skillgroup": {},
+          "id": "3f7935ef-dc5d-4b53-88ef-cb7db7cbe1a9",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Athabaskan",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "15f89f34-cdbd-4523-a1eb-4d8043252389",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Bars and Clubs",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Atlanta",
+              "Awakened",
+              "Biker",
+              "Cheyenne",
+              "Chicago",
+              "Corporate",
+              "Denver",
+              "Dwarf",
+              "Elf",
+              "FDC",
+              "Gay",
+              "High-Class",
+              "Hotel",
+              "Jazz",
+              "Hong Kong",
+              "LA",
+              "Low-Class",
+              "Mafia",
+              "Matrix",
+              "Manhattan",
+              "Ork",
+              "Portland",
+              "Piano",
+              "Pubs",
+              "Quebec City",
+              "Rock",
+              "Sacramento",
+              "Saskatoon",
+              "Seattle",
+              "Sports",
+              "Surge",
+              "Triad",
+              "Troll",
+              "Vory",
+              "Yakuza"
+            ]
+          },
+          "skillgroup": {},
+          "id": "bee29957-affb-4593-a4fe-002f6dd5be9c",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Bengali",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "d6e4efdd-d0a2-4727-8425-b43e480b3256",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Biology",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Anatomy",
+              "Microbiology",
+              "Physiology",
+              "Parazoology"
+            ]
+          },
+          "skillgroup": {},
+          "id": "2d757c45-14af-43fb-98d4-0db9380ab073",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Zoology",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "c0be1393-e4a1-4af6-8c0d-f9eef89a93b1",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Black Markets",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan"
+            ]
+          },
+          "skillgroup": {},
+          "id": "6331a44a-ad26-4b08-8b7a-2dbe3c2d0584",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "BTLs",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Bunraku",
+              "Calhots",
+              "Crime Fantasy",
+              "Drug Emulation",
+              "Historical Fantasy",
+              "Hot-Sim Pornography",
+              "Mind Control Chips",
+              "Power Fantasy",
+              "Reality Enhancer",
+              "Revenge Fantasy",
+              "Snuff",
+              "Soma Chips",
+              "Synesthesia",
+              "Ultraviolence"
+            ]
+          },
+          "skillgroup": {},
+          "id": "c52d63de-ddc0-477f-bf46-33002f8f4aaa",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Bulgarian",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a621ba8f-92e9-4032-b506-c1b2408dfa4e",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Business",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Budgeting",
+              "Compliance",
+              "Digital Accountancy",
+              "Distribution",
+              "Finance",
+              "Manufacturing",
+              "Megacorp",
+              "People Management",
+              "Project Management",
+              "Reporting",
+              "Retail",
+              "Supply and Demand",
+              "Small Business",
+              "Time Management"
+            ]
+          },
+          "skillgroup": {},
+          "id": "0a1dfc0e-dcb9-448d-a2d3-718670d79df1",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Cantonese",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "dcf38896-6054-4ece-90e1-901352eb0201",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Charity Shelters",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City"
+            ]
+          },
+          "skillgroup": {},
+          "id": "d5412408-46a4-4871-945e-7983ad43857e",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Chemistry",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Industrial",
+              "Inorganic",
+              "Organic",
+              "Pharmaceuticals"
+            ]
+          },
+          "skillgroup": {},
+          "id": "aa6199a5-717e-42b8-984b-0dd2ccd5369f",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Combat Tactics",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Ambush",
+              "Guerrilla",
+              "Hostage Rescue",
+              "Magic",
+              "Anti-Magic",
+              "Open Field",
+              "Outer Space",
+              "Terror",
+              "Underwater",
+              "Urban",
+              "Wilderness"
+            ]
+          },
+          "skillgroup": {},
+          "id": "ac86aba3-a7d6-4938-b5f1-186955912643",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Critters",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Alligators",
+              "Barracudas",
+              "Bears",
+              "Boars",
+              "Chimpanzees",
+              "Cockroaches",
+              "Crows",
+              "Deer",
+              "Dogs",
+              "Dolphins",
+              "Domestic Cats",
+              "Eagles",
+              "Elephants",
+              "Ferrets",
+              "Giraffes",
+              "Great Cats",
+              "Horses",
+              "Killer Whales",
+              "Raccoons",
+              "Rats",
+              "Sea Lions",
+              "Sharks",
+              "Snakes",
+              "Spiders",
+              "Squids",
+              "Wolves"
+            ]
+          },
+          "skillgroup": {},
+          "id": "47c41bfc-2cfa-47ca-b20e-ec3351979791",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Croatian",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "17c50e74-f009-4794-9dda-19062abb1d90",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Crook Hangouts",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "FDC",
+              "High-Class",
+              "Hong Kong",
+              "LA",
+              "Low-Class",
+              "Manhattan",
+              "Portland",
+              "Quebec City",
+              "Sacramento",
+              "Seattle"
+            ]
+          },
+          "skillgroup": {},
+          "id": "48bd3a3e-9ea8-425a-b2cd-c764479e9565",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Danish",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "878181d4-2f54-4993-ae30-06c9bf1ee11b",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Data Havens",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Hacking",
+              "Magic",
+              "Matrix",
+              "Shadows",
+              "N. America",
+              "S. America",
+              "Central America",
+              "Antarctica",
+              "Africa",
+              "Western Europe",
+              "Eastern Europe",
+              "Northern Europe",
+              "Asia - Pacific",
+              "Asia - Minor",
+              "Middle East",
+              "Australia"
+            ]
+          },
+          "skillgroup": {},
+          "id": "4fa93586-b5b4-4bf7-ad18-aacecc3a6894",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "DIY",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Electronics",
+              "Carpentry",
+              "Plumbing",
+              "Sewing"
+            ]
+          },
+          "skillgroup": {},
+          "id": "5227212f-507d-4aa7-8894-7d35a1eb98cf",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Disease",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "be9be259-3109-489f-91d4-6e62e44f5ea3",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Drones",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Wheeled",
+              "Walker",
+              "Hovercraft",
+              "Tracked"
+            ]
+          },
+          "skillgroup": {},
+          "id": "c9ca1da3-11d0-4921-8a87-4726f342a04b",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Economics",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Micro-economics",
+              "Macro-economics",
+              "Corporate",
+              "Tribal",
+              "Underworld",
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan",
+              "N. America",
+              "S. America",
+              "Central America",
+              "Antarctica",
+              "Africa",
+              "Western Europe",
+              "Eastern Europe",
+              "Northern Europe",
+              "Asia - Pacific",
+              "Asia - Minor",
+              "Middle East",
+              "Australia"
+            ]
+          },
+          "skillgroup": {},
+          "id": "b1d33738-a93a-46f3-a64a-0fc329ab1740",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Engineering",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Chemical",
+              "Civil",
+              "Electrical",
+              "Mechanical",
+              "Nuclear"
+            ]
+          },
+          "skillgroup": {},
+          "id": "cbb44acf-10cd-4b67-afc6-bf28efe74ea4",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "English",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Cityspeak",
+              "Creole",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "907a3a8f-2c40-4543-a5a9-891bcde41f6b",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Eskimo-Aleut",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "f5a57bc4-8131-4a73-9c9a-03276d24a513",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Fashion",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Harajuku Scene",
+              "London Scene",
+              "New York Scene",
+              "Paris Scene"
+            ]
+          },
+          "skillgroup": {},
+          "id": "b21c9f0f-9db0-4de1-b901-2a911d9abd62",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Fashion Design",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Harajuku Scene",
+              "London Scene",
+              "New York Scene",
+              "Paris Scene"
+            ]
+          },
+          "skillgroup": {},
+          "id": "cee3de6f-4947-4947-b2e1-75fde02a5d78",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Firearms",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Accessories",
+              "Ammunition",
+              "Automatics",
+              "Design",
+              "Heavy Weapons",
+              "History",
+              "Longarms",
+              "Modification",
+              "Pistols"
+            ]
+          },
+          "skillgroup": {},
+          "id": "6d9880ee-c017-4e7f-a7ee-502eb542709b",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Blade Design",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Accessories",
+              "Axes",
+              "Knives",
+              "Swords",
+              "Throwing Weapons",
+              "History",
+              "Modification"
+            ]
+          },
+          "skillgroup": {},
+          "id": "7ace94b0-ab82-446a-93d0-e1fdb380d1d8",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Gun Trivia",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Accessories",
+              "Ammunition",
+              "Automatics",
+              "Design",
+              "Heavy Weapons",
+              "History",
+              "Longarms",
+              "Modification",
+              "Pistols"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a0ab7534-8f74-4690-be2b-040adc1413d7",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "French",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Creole",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "026062e0-9bdd-4a06-9cca-c3640c634cfd",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Gaming",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Dawn of Atlantis",
+              "Dark Eye",
+              "Grand Larceny",
+              "Killing Floor",
+              "Paranormal Crisis",
+              "Miracle Shooter",
+              "Spectrum Delta",
+              "SC IV: Protoss Gate",
+              "World of Shadows",
+              "Urban Brawl League 70",
+              "Guild Ages"
+            ]
+          },
+          "skillgroup": {},
+          "id": "7e1204ab-fc99-4453-9ec2-cc3f60ec2349",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Gangs",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Ancients",
+              "Area Boys",
+              "Cirque du Sorciere",
+              "Chaos Engine",
+              "Cocotona",
+              "Comando Verdge",
+              "Cutters",
+              "Desolation Angels",
+              "First Nations",
+              "Ghost Cartels",
+              "Halloweeners",
+              "Hell's Angels",
+              "Iron Crosses",
+              "Los Verdugos",
+              "Los Angeles Ardientes",
+              "Lynch Mob",
+              "Merlyns",
+              "Numbers Gang",
+              "Spikes",
+              "Steppin Wulfs",
+              "Thunder Boys",
+              "Yardies",
+              "Vikings",
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a1c95207-1864-4723-b26f-b0a8c5b6290d",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "German",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a72084f6-3a4c-4c23-82aa-4697e543ee0b",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Ghost Cartels",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Turf",
+              "Politics",
+              "Signs",
+              "History",
+              "Organizations",
+              "Safe Houses"
+            ]
+          },
+          "skillgroup": {},
+          "id": "85dc4a4c-57e2-4066-9de4-171f367a74ab",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Hebrew",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "b4d3d48a-bff1-4303-ac69-4dd9269d1b2c",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Hindi-Urdu",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "406ddc53-6635-4cd7-8ad0-90024b683492",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "History",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Ancient",
+              "Medieval",
+              "Modern",
+              "Art",
+              "Corporate",
+              "Military",
+              "Political",
+              "Religion",
+              "Social",
+              "Tribal",
+              "Underworld",
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan",
+              "N. America",
+              "S. America",
+              "Central America",
+              "Antarctica",
+              "Africa",
+              "Western Europe",
+              "Eastern Europe",
+              "Northern Europe",
+              "Asia - Pacific",
+              "Asia - Minor",
+              "Middle East",
+              "Australia"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a68b4d38-9e7b-4f0d-be04-d28d2bec3803",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Indonesian",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a03b153c-1f16-484c-b229-1090e61c1f92",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Infected",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "71407a60-c753-40d9-9d5b-416c43b51fef",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Iroquoian",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "c66aff30-b99b-47c3-94df-e5b4cc4e06d2",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Italian",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "87627536-a185-427a-bb14-54a4ff89901c",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Japanese",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Cityspeak",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "f876953e-a14e-4ca5-b454-b0090907da28",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Korean",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "0ecbddff-4e99-485b-b54a-6c087c03f07b",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Latin",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "bcf6bfe5-a454-43b3-9de0-bbdc7e18b5a5",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Literature",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Japanese",
+              "Early Twentieth Century",
+              "Science Fiction",
+              "Poetry",
+              "Fiction",
+              "Romance",
+              "N. America",
+              "S. America",
+              "Central America",
+              "Antarctica",
+              "Africa",
+              "Western Europe",
+              "Eastern Europe",
+              "Northern Europe",
+              "Asia - Pacific",
+              "Asia - Minor",
+              "Middle East",
+              "Australia"
+            ]
+          },
+          "skillgroup": {},
+          "id": "cca8e4dc-4c67-45d2-bee6-57366d277206",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Mafia",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Turf",
+              "Politics",
+              "Signs",
+              "History",
+              "Organizations",
+              "Safe Houses"
+            ]
+          },
+          "skillgroup": {},
+          "id": "7e942ac9-8c2c-4f7c-91d5-cfaf5d0e9262",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Magic Traditions",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Adepts",
+              "Shamans",
+              "Mages",
+              "Mystic Adepts"
+            ]
+          },
+          "skillgroup": {},
+          "id": "f8a3a8da-e177-49c7-9b3d-2749fd3704cd",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Magical Theory (Academic)",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Sorcery",
+              "Conjuring",
+              "Enchanting",
+              "Foci",
+              "Astral World",
+              "Metaplanes",
+              "Initiation",
+              "Mentor Spirits"
+            ]
+          },
+          "skillgroup": {},
+          "id": "0bbb3078-a940-4003-b4f3-fa23937cf227",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Magical Theory (Street)",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Sorcery",
+              "Conjuring",
+              "Enchanting",
+              "Foci",
+              "Astral World",
+              "Metaplanes",
+              "Initiation",
+              "Mentor Spirits"
+            ]
+          },
+          "skillgroup": {},
+          "id": "49f3497e-0111-42f3-8e36-6119a51995cd",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Magical Security",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Government",
+              "Military",
+              "Private",
+              "Home",
+              "[Corporation]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a1adb39d-6bac-4c10-a01e-692a4edac293",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Magical Threats",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Blood Magic",
+              "Toxic Magic",
+              "Insect Spirits",
+              "Shadow Spirits"
+            ]
+          },
+          "skillgroup": {},
+          "id": "9843709f-803a-4424-88a2-d972d3405955",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Mandarin",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "7f7fea00-e656-4c7c-afd3-03f34aafa9f4",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Mathematics",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Arithmetic",
+              "Calculus",
+              "Geometry",
+              "Algebra",
+              "Number Theory",
+              "Game Theory",
+              "Graph Theory",
+              "Group Theory",
+              "Combinatorics",
+              "Statistics"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a02ee5ad-42a4-4f3c-8e9f-24730fadd440",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Matrix Games",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Astral Dreams: Legend of Tenku",
+              "Awakening: 1949",
+              "Beat the Market",
+              "Dawn of Atlantis III",
+              "Dragon Storm",
+              "Fermat's Last Hermetic Equation",
+              "Galaxy Ten",
+              "Grand Larceny",
+              "Killing Floor",
+              "Life's a Bitch",
+              "Miracle Shooter",
+              "Noir Confidential",
+              "Run, Run Runner",
+              "Shadowrun Online",
+              "The Seelie Court"
+            ]
+          },
+          "skillgroup": {},
+          "id": "95730d81-d189-4cbe-8ee7-23b62f6efdb6",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Mechanics",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Automotive",
+              "Aeronautic",
+              "Industrial",
+              "Nautical"
+            ]
+          },
+          "skillgroup": {},
+          "id": "3b29366e-bbb9-43a7-9cbc-4c7c17a2bbb3",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Military",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Air Force",
+              "Army",
+              "Coast Guard",
+              "Marines",
+              "Military Magic",
+              "Navy",
+              "Special Forces"
+            ]
+          },
+          "skillgroup": {},
+          "id": "58a3da0b-86da-48ec-953b-11ffcf6d283f",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Foreign Military",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Air Force",
+              "Army",
+              "Coast Guard",
+              "Marines",
+              "Military Magic",
+              "Navy",
+              "Special Forces"
+            ]
+          },
+          "skillgroup": {},
+          "id": "05388bd3-e3c6-4d61-b902-72f8163a2134",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Military Vehicles",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Air Force",
+              "Army",
+              "Coast Guard",
+              "Marines",
+              "Navy",
+              "Special Forces"
+            ]
+          },
+          "skillgroup": {},
+          "id": "1862a5ed-7b7b-4fa8-bf25-5d10ec45223f",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Mixed Unit Tactics",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Aerial/Aircraft",
+              "Armored Infantry",
+              "Artillery",
+              "Naval",
+              "Mechanized Infantry",
+              "Standard Infantry",
+              "[Single Unit Type]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "0e5b89c5-1143-4e73-ab71-0700910fcaaa",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "NAN Military",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Air Force",
+              "Army",
+              "Coast Guard",
+              "Marines",
+              "Military Magic",
+              "Navy",
+              "Special Forces"
+            ]
+          },
+          "skillgroup": {},
+          "id": "8feeb71f-8864-4ece-88b2-52f77eb1851f",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Peacekeepers",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Air Force",
+              "Army",
+              "Coast Guard",
+              "Marines",
+              "Military Magic",
+              "Navy",
+              "Special Forces"
+            ]
+          },
+          "skillgroup": {},
+          "id": "9cc48c53-ebc4-49a4-87b9-be0ec5efac0a",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Tir Military Vehicles",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Air Force",
+              "Army",
+              "Coast Guard",
+              "Marines",
+              "Navy",
+              "Special Forces"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a068c0d8-5c87-46f2-a13d-f981fda80a06",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Club Music",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Astral Rock",
+              "Electron Wave",
+              "Goblin Rock",
+              "Powernoize",
+              "Rockabilly",
+              "Sinthcore",
+              "Wizpunk",
+              "Trash Metal Troll",
+              "Retro Gothic",
+              "Elven Rap",
+              "Neo-J Pop",
+              "Nova K Rock",
+              "Beatpace",
+              "Bugstomp",
+              "Fractal",
+              "Plex"
+            ]
+          },
+          "skillgroup": {},
+          "id": "ee36423c-21c7-4af3-81da-93778da83a45",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "National Threats",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Denver",
+              "Hong Kong",
+              "Seattle",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan"
+            ]
+          },
+          "skillgroup": {},
+          "id": "516713c4-8022-46ea-b1d1-f843922731d4",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "News",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Business",
+              "Entertainment",
+              "Health",
+              "Science/Environment",
+              "Sports",
+              "Technology",
+              "Underworld",
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan",
+              "N. America",
+              "S. America",
+              "Central America",
+              "Antarctica",
+              "Africa",
+              "Western Europe",
+              "Eastern Europe",
+              "Northern Europe",
+              "Asia - Pacific",
+              "Asia - Minor",
+              "Middle East",
+              "Australia"
+            ]
+          },
+          "skillgroup": {},
+          "id": "5ea73805-1e96-4770-afef-647322f1eeff",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Or'zet",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "3057f850-d7d8-4c5d-9315-556ebb12f0e1",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Parazoology",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Spirits",
+              "N. America",
+              "S. America",
+              "Central America",
+              "Antarctica",
+              "Africa",
+              "Western Europe",
+              "Eastern Europe",
+              "Northern Europe",
+              "Asia - Pacific",
+              "Asia - Minor",
+              "Middle East",
+              "Australia"
+            ]
+          },
+          "skillgroup": {},
+          "id": "0b90b4b9-2290-45ad-9827-82fd0c6454be",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Persian",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "004ef112-3f24-4ca1-bc9c-b0e4229fc3b6",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Polish",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "5fc15c3f-7b1c-4b87-a469-ccefb7d60820",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Politics",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Corporate",
+              "Military",
+              "Social",
+              "Tribal",
+              "Underworld",
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan",
+              "N. America",
+              "S. America",
+              "Central America",
+              "Antarctica",
+              "Africa",
+              "Western Europe",
+              "Eastern Europe",
+              "Northern Europe",
+              "Asia - Pacific",
+              "Asia - Minor",
+              "Middle East",
+              "Australia"
+            ]
+          },
+          "skillgroup": {},
+          "id": "57090b04-5d4c-47ec-9cf3-9b414c40cb09",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Portuguese",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "d11e8181-215e-41b3-8775-521b1d629123",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Punjabi",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a8187f25-74d6-43f5-9a43-8d03cef04a6e",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Religion",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Islam",
+              "Judaism",
+              "Buddhism",
+              "Christianity",
+              "Hinduism",
+              "Zoroastrianism",
+              "Shinto",
+              "Paganism",
+              "Taoism"
+            ]
+          },
+          "skillgroup": {},
+          "id": "bce7ec73-39ef-43bf-a74f-8fa7627753ab",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Russian",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "7ba1f555-f6b5-4d3a-b0f6-38f9a030b661",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Security Companies",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Lone Star",
+              "Knight Errant",
+              "Hard Corps",
+              "Minutemen Security",
+              "Seattle Sec Corps"
+            ]
+          },
+          "skillgroup": {},
+          "id": "09ae5c16-0b45-4ab9-9634-cab22ad781c4",
+          "category": "Street",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Security Design",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Bank",
+              "Corporate",
+              "Government",
+              "Home",
+              "Public Event",
+              "Vehicle",
+              "VIP"
+            ]
+          },
+          "skillgroup": {},
+          "id": "3dc3854e-5d67-4ee8-8ffa-c637394859a6",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Security Tactics",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Corporate",
+              "Crimson Rush",
+              "Entertainment",
+              "Government",
+              "Security Company",
+              "Rapid Response",
+              "Border Patrol",
+              "Customs",
+              "VIP"
+            ]
+          },
+          "skillgroup": {},
+          "id": "86ac486a-6e5b-4c04-b575-f63beb10b809",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Sioux",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "083e28e0-885a-4123-a8db-847c3509d14a",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Small Unit Tactics",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Arctic",
+              "Desert",
+              "Forest",
+              "Jungle",
+              "Mountains",
+              "Urban",
+              "[Terrain]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "d06dfd90-1df0-4f05-84d5-1fea9d146f87",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Spanish",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "b6aa3faa-64e0-4323-9617-49add784064a",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Sperethiel",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a364caab-f0bd-49b8-859e-1fa0d73c3c53",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Spirits",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Beast",
+              "Earth",
+              "Fire",
+              "Guardian",
+              "Guidance",
+              "Man",
+              "Plant",
+              "Task",
+              "Water",
+              "Watcher"
+            ]
+          },
+          "skillgroup": {},
+          "id": "67e74b72-7970-4243-ad68-4db92894a12d",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Sports",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Baseball",
+              "Basketball",
+              "Boxing",
+              "Combat Biking",
+              "Court Ball",
+              "Drone Racing",
+              "Duello Magicae",
+              "E-Sports",
+              "Football",
+              "Hockey",
+              "Hoverball",
+              "Hurling",
+              "Piloted Racing",
+              "MMA",
+              "Soccer",
+              "Stickball",
+              "UFC",
+              "Underground Fighting",
+              "Urban Brawl",
+              "Wrestling"
+            ]
+          },
+          "skillgroup": {},
+          "id": "219d4e62-a378-480d-ba6a-9278490e4539",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Sprawl Life",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Scavenging",
+              "Soup Kitchens",
+              "Squats",
+              "Street Docs",
+              "Street Rumors"
+            ]
+          },
+          "skillgroup": {},
+          "id": "0af06344-3637-4160-813b-a33dda2d16aa",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Smuggler Routes",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan"
+            ]
+          },
+          "skillgroup": {},
+          "id": "d0f7dabe-667a-45b1-ab51-a17f463b1bb1",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Smuggler Safe Houses",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan"
+            ]
+          },
+          "skillgroup": {},
+          "id": "4a046ac0-b5fe-40d8-9ec6-305ffbac189c",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Street Drugs",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Betel",
+              "Binaural Beats",
+              "BTLs",
+              "Cram",
+              "Deepweed",
+              "Novacoke",
+              "Spike",
+              "Tempo"
+            ]
+          },
+          "skillgroup": {},
+          "id": "51ea095a-2f1f-4090-afcb-d2cbb88c8f91",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Strategy",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Logistics",
+              "Reconnaissance",
+              "Offensive",
+              "Defensive"
+            ]
+          },
+          "skillgroup": {},
+          "id": "ac2d2cb7-e602-42cc-bc53-9bb45588244c",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Syndicates",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Personalities",
+              "Ghost Cartels",
+              "Mafia",
+              "Triad",
+              "Yakuza",
+              "Vory",
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan"
+            ]
+          },
+          "skillgroup": {},
+          "id": "19a3925e-7ae7-4037-9d59-de63a7ab7a92",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Thai",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "bb231493-bc95-4783-8ad9-e66078ee31ef",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Triads",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Turf",
+              "Politics",
+              "Signs",
+              "History",
+              "Organizations",
+              "Safe Houses"
+            ]
+          },
+          "skillgroup": {},
+          "id": "0e364dfa-7160-46a7-bd98-601afcc08dd5",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Trids",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Action",
+              "Comedy",
+              "Cop",
+              "Documentary",
+              "Drama",
+              "Fantasy",
+              "Horror",
+              "Rom-Com",
+              "Sci-fi",
+              "Thriller"
+            ]
+          },
+          "skillgroup": {},
+          "id": "8f81d25b-a1e3-4d3a-8eea-ea66711a3454",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Trideo Shows",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Action",
+              "Comedy",
+              "Cop",
+              "Documentary",
+              "Drama",
+              "Fantasy",
+              "Game Shows",
+              "Horror",
+              "Reality Shows",
+              "Rom-Com",
+              "Sci-fi",
+              "Thriller",
+              "BattleRun",
+              "Berlin Nights",
+              "Blood Runners",
+              "The Coffee Clutch",
+              "DASH: Star Loner!",
+              "Debonair Dave",
+              "Desert Wars",
+              "Dessert Wars",
+              "Dis is Uz",
+              "Granny Sweetspell's Magical Kitchen",
+              "Karl Kombatmage",
+              "Reloaded",
+              "The Master Wizard",
+              "Max Wild",
+              "A Murder to Kill For",
+              "Ningyo: The Digital",
+              "Geisha Diaries",
+              "On Point",
+              "Ork and Mindy",
+              "Polar Wars",
+              "Porky's Landing",
+              "Red Samurai Run",
+              "The Runners",
+              "Seas of Death: The Tale of Kane",
+              "Space Fleet",
+              "Street by Street",
+              "Temple Terror",
+              "The Wrong Shift"
+            ]
+          },
+          "skillgroup": {},
+          "id": "2ffc7361-466a-4f9e-a09c-f6c56046f2ef",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Turkish",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "dad44f50-efc1-4dc9-a1ac-ca7d89a18218",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Undead",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "974e376f-5eec-4df8-b7d5-e53e900058e9",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Underworld",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Arson",
+              "Black Magic",
+              "Black Market Pipeline",
+              "Blackmail",
+              "BTL",
+              "Counterfeiting",
+              "Drugs",
+              "Drug Dealers",
+              "Fencing",
+              "Financial Crime",
+              "Fixing",
+              "Forgery",
+              "Gambling",
+              "Grifting",
+              "Hijacking",
+              "Illegal Goods",
+              "Kidnapping",
+              "Loansharking",
+              "Local Runners",
+              "Medicine",
+              "Matrix Crime",
+              "Money Laundering",
+              "Organleggers",
+              "Pornography",
+              "Prostitution",
+              "Protection",
+              "Robbery",
+              "Smugglers",
+              "Smuggling",
+              "Talislegger",
+              "Tamanous groups",
+              "White Collar",
+              "Wetwork"
+            ]
+          },
+          "skillgroup": {},
+          "id": "5c3ebb6f-d075-4486-8900-d7a19bae958f",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Vory",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Turf",
+              "Politics",
+              "Signs",
+              "History",
+              "Organizations",
+              "Safe Houses"
+            ]
+          },
+          "skillgroup": {},
+          "id": "250f080a-9a79-4e8b-8980-d19bef402852",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Wu",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "20041f7e-7725-403e-8771-0904090bdfd1",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Xiang",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "ea024ba4-dabf-4da5-be96-a1bccfead27e",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Yakuza",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Turf",
+              "Politics",
+              "Signs",
+              "History",
+              "Organizations",
+              "Safe Houses"
+            ]
+          },
+          "skillgroup": {},
+          "id": "e216aad1-15fa-48c5-9d0e-0c6a92e819e0",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Astronomy",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Comets",
+              "Mars",
+              "Moon",
+              "Stars",
+              "[category]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "99d3b5ed-7862-410f-b3d9-ca7427bc2791",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Awakened Hangouts",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan"
+            ]
+          },
+          "skillgroup": {},
+          "id": "37013018-70bd-4016-827c-c366949622f5",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "City Speak",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "63bb99a1-457c-4ee6-ab63-05267b0b0e09",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Classical Music",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Ballet",
+              "Baroque",
+              "Chamber Music",
+              "Medieval",
+              "Opera",
+              "Orchestral",
+              "Renaissance",
+              "[music style]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a7d0c675-ca0d-4df0-9023-b03674d79d0e",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Codes",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Magical",
+              "Matrix",
+              "Physical",
+              "Mathematical"
+            ]
+          },
+          "skillgroup": {},
+          "id": "40829746-9376-4a0a-a80c-25c3767582df",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Connoisseur",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Fine Arts",
+              "Beers",
+              "Cuisines",
+              "Cuisine (Aztlaner)",
+              "Cuisine (French)",
+              "Cuisine (Italian)",
+              "Teas",
+              "Wines",
+              "Wine (Elven)",
+              "[Cuisine, Wine]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "678da16f-6446-4e0c-8bef-cc1d619e1d1a",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Corporation: Ares Macrotechnology",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Damien Knight",
+              "Ares Arms",
+              "AresSpace",
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "d9c2e7c4-b9c6-4904-b4a4-56ecca7c9530",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Aztechnology",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "50a4cbd7-a0f7-474a-97ae-a781320d6780",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Evo",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "CrashCart Medical Services",
+              "Red Star Clinics",
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "987d7063-73ec-4170-beb2-1851c0dd7cee",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Horizon Group",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "6a3bd597-09e5-45ba-8719-d4eda627e780",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Mitsuhama Computer Technologies",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Magical Goods and Services",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "dd4779db-4c54-4fa3-b56c-7caf0ba6926b",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: NeoNET",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "ee28a346-d0a8-476e-93a9-6db56ae4b298",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Renraku Computer Systems",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Haruhiko Nakada",
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "603f7245-62ef-477e-923e-f8a4681dec35",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Saeder-Krupp",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Saeder-Krupp Heavy Industries",
+              "Saeder-Krupp Prime",
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "8db5cc64-5dc4-4ae9-a56b-e0c54a6e2413",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Shiawase",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "03707f22-bebe-469a-817b-f6dfd4d7d6a1",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Wuxing, Inc.",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Magical Goods and Services",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "c9826bde-bb0b-4e45-9348-aa77546dfc7c",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Brackhaven Investments",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Kenneth Brackhaven",
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "44181f85-9472-4ab6-8da7-d4d2aeb38a96",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: DocWagon",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Denny Coleman",
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "7592dc37-0d4f-4790-a1a8-188601b0d137",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Federated-Boeing",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "0346bd5b-4a87-47b9-86de-9b322ef0a2c7",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Gaeatronics",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "7d76f579-eec5-4521-a7bb-c4dedfd85af4",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Global Technologies",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "dc767e9a-796a-494a-b200-d018efd4fa49",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Knight Errant",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Damien Knight",
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "23efe0de-0830-40f4-ab54-ee5e324b31e9",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Kong-Walmart",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "d62f9a9e-9614-4421-a70c-b20b0f60641e",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Lone Star Security Services",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Chicago Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "43378bcc-7ca9-4f26-9ee5-8bbc69953628",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Regency MegaMedia",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "183d5e40-4c27-4068-a30d-e75176f4da67",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Stuffer Shack",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a142e6ff-b97c-4cf6-9fbc-caebe1c3ba9f",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Telestrian Industries Corporation",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "eb92764d-5dff-4454-88a0-f7c8233c9016",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Universal Omnitech",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Ingersoll and Berkley",
+              "Seattle Operations",
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "0b1dfbba-c787-4455-95e0-0b87b885011b",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Corporation: Zurich-Orbit Gemeinschaft Bank (ZOG)",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Corporate Finances",
+              "Corporate Politics",
+              "Corporate Rumors",
+              "Corporate Security"
+            ]
+          },
+          "skillgroup": {},
+          "id": "cb35837e-09bd-4c53-96de-6fbd92b3d99f",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Creole",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "decebd3c-5fb0-426e-8e9c-431e0fa3b880",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Cybertechnology",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Cyberware",
+              "Cyberware Design",
+              "SOTA"
+            ]
+          },
+          "skillgroup": {},
+          "id": "94f7ee6d-e79d-4236-9787-c7bc45727e9f",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Entertainment",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Classical Music",
+              "Kaiju Monster Movies",
+              "Music",
+              "Neo-Classical Music",
+              "Sports",
+              "[Gambling]",
+              "[Pornography]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "d768f35f-9c1f-4792-a609-9f7c61aea557",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Fight Clubs",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "Hong Kong",
+              "LA",
+              "Manhattan",
+              "FDC",
+              "Portland",
+              "Seattle",
+              "Saskatoon",
+              "Sacramento",
+              "Quebec City",
+              "Algonkian-Manitou Council",
+              "Athabaskan Council",
+              "Amazonia",
+              "Aztlan",
+              "Caribbean League",
+              "California Free State",
+              "Pueblo Corporate Council",
+              "CAS",
+              "UCAS",
+              "Quebec",
+              "Salish-Shidhe Council",
+              "Sioux",
+              "Tir Tairngire",
+              "Tsimshian Protectorate",
+              "Yucatan"
+            ]
+          },
+          "skillgroup": {},
+          "id": "2d74b337-f0c4-465c-a03a-23af8d93082b",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Farming",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Organic",
+              "Factory",
+              "Awakened"
+            ]
+          },
+          "skillgroup": {},
+          "id": "abeaf83e-edeb-4780-baff-4662e73ea8e6",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Forensics",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Cleaning",
+              "Thaumaturgic"
+            ]
+          },
+          "skillgroup": {},
+          "id": "487f0a4f-584d-484f-8778-942c5ecda065",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Foster System",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "UCAS",
+              "CAS",
+              "[Jurisdiction]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "cd7444d3-8eb4-41f7-a8a9-753df5958d0c",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Journalism",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Investigative",
+              "Editorial",
+              "Print",
+              "Trid"
+            ]
+          },
+          "skillgroup": {},
+          "id": "fe04fd63-2d4f-4046-8356-0bad4d251e50",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Megacorp Law (Street)",
+          "default": "False",
+          "specs": {
+            "spec": "Contracts"
+          },
+          "skillgroup": {},
+          "id": "e48a5194-57e7-420a-b176-5f51bdb235c4",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Law",
+          "default": "False",
+          "specs": {
+            "spec": "Contracts"
+          },
+          "skillgroup": {},
+          "id": "227bcaa5-0cc0-4f85-99e6-345a5d7e696d",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Matrix",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Host Design",
+              "Host Networking"
+            ]
+          },
+          "skillgroup": {},
+          "id": "d6304862-cfa6-4916-aee1-40789798b590",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Matrix Threats",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Protosapients",
+              "Xenosapients",
+              "Technocritters",
+              "Dissonant Technomancers"
+            ]
+          },
+          "skillgroup": {},
+          "id": "cb491fb5-2fa9-422e-b572-9ff84fcd5616",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Magical Law",
+          "default": "False",
+          "specs": {
+            "spec": "Contracts"
+          },
+          "skillgroup": {},
+          "id": "4dd0d947-b1e1-471b-bfc0-9ba8ecd827dc",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Metahumans",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Dwarves",
+              "Elves",
+              "Humans",
+              "Orks",
+              "Trolls"
+            ]
+          },
+          "skillgroup": {},
+          "id": "e93e443e-7b21-41f7-9f8e-ba316b1e385a",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Medicine",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Field Medicine",
+              "Medical Advances",
+              "Technology"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a2a68932-b602-4387-931b-03b2408a416d",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Psychology",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Mental Illnesses",
+              "Mental Reprogramming",
+              "Xenosapient"
+            ]
+          },
+          "skillgroup": {},
+          "id": "85334671-01ec-42ef-9908-dae556376a2c",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Sociology",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Cultural",
+              "Medical",
+              "Behavioral",
+              "Matrix",
+              "Political"
+            ]
+          },
+          "skillgroup": {},
+          "id": "2d107401-7319-4b41-8800-e0cbdf7251f0",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Philosophy",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Christian",
+              "Buddhist",
+              "Taoist",
+              "Confucian",
+              "Kantian",
+              "Socialist",
+              "Fascist",
+              "Utilitarian",
+              "Existentialist",
+              "Rationalist",
+              "Anti-Rationalist"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a69c0dc0-891d-4d06-8fd4-0312b1288c0c",
+          "category": "Academic",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Neo-Classical Music",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Rock n Roll",
+              "The (19)60's",
+              "The (19)70's",
+              "Early Millennial",
+              "Mid-century",
+              "[musical era]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "4df60d90-2b0a-414c-955e-f52a57ff9760",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Organized Crime: Chicago",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Turf",
+              "Politics",
+              "Signs",
+              "History",
+              "Organizations",
+              "Safe Houses"
+            ]
+          },
+          "skillgroup": {},
+          "id": "d232a676-7550-4e5a-8b5a-57417bb8038d",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Police Procedures (Professional)",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Government",
+              "Military Security Design",
+              "Magical",
+              "Matrix",
+              "Military",
+              "Physical",
+              "Private",
+              "Home",
+              "[Corporation]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "8ba59909-186d-4629-97ee-62880189b5c3",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Police Procedures (Street)",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Government",
+              "Military Security Design",
+              "Magical",
+              "Matrix",
+              "Military",
+              "Physical",
+              "Private",
+              "Home",
+              "[Corporation]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "a9ba4d49-7a9c-4d3f-9e71-99ef8458ca5f",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Security Procedures",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Government",
+              "Military Security Design",
+              "Magical",
+              "Matrix",
+              "Military",
+              "Physical",
+              "Private",
+              "Home",
+              "[Corporation]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "8a82edaa-9ff0-447d-acb7-3a72a8bcfb9f",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Law Enforcement Procedures (Professional)",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Government",
+              "Magical",
+              "Matrix",
+              "Military",
+              "Physical",
+              "Private",
+              "[Corporation]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "af8ea3b6-5ffd-41b6-892a-7e77ee8e247a",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Law Enforcement Procedures (Street)",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Government",
+              "Magical",
+              "Matrix",
+              "Military",
+              "Physical",
+              "Private",
+              "[Corporation]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "687a25c8-2f47-40fd-a9f8-a44bedb2c1f3",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Government Procedures",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Magical",
+              "Matrix",
+              "Physical",
+              "Bureaucratic"
+            ]
+          },
+          "skillgroup": {},
+          "id": "31357280-24e0-4146-b5ee-ad532decaa5e",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Lone Star Procedures",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Government",
+              "Magical",
+              "Matrix",
+              "Physical",
+              "Home"
+            ]
+          },
+          "skillgroup": {},
+          "id": "1d68ed58-91ff-495a-a456-2bc04d82a3b7",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Politics: UCAS",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Presidential",
+              "Congressional",
+              "[state, party, lobby group]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "c345b536-1406-4d32-9ae1-0fc5002cd9c5",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Popular Culture",
+          "default": "False",
+          "specs": {},
+          "skillgroup": {},
+          "id": "519e73c7-d1d4-4c53-9654-e4974f9e531b",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Popular Music",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Dwarven Punkbilly",
+              "Modern Punk",
+              "Feathercore",
+              "Beatpace",
+              "Bugstomp",
+              "Fractal",
+              "Plex",
+              "[genre]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "9176d81a-ac8b-4168-afe6-affd4bb9514e",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Radical Groups",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Alamos 20K",
+              "Ex Pacis",
+              "GreenWar",
+              "Logos",
+              "Neo-Anarchist Movement",
+              "Seed",
+              "TerraFirst!",
+              "[group]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "06c125c8-01cc-40ba-9a11-2fdad092398f",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Runner Hangouts",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Atlanta",
+              "Cheyenne",
+              "Chicago",
+              "Denver",
+              "FDC",
+              "High-Class",
+              "Hong Kong",
+              "LA",
+              "Low-Class",
+              "Manhattan",
+              "Portland",
+              "Quebec City",
+              "Sacramento",
+              "Seattle"
+            ]
+          },
+          "skillgroup": {},
+          "id": "85a3fe58-b638-4272-949e-bd7549e32e00",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Salish",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "79a0069c-4517-4698-91b5-3d24b928c5ee",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Serbo-Croatian",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "1708eff8-a7fe-491f-b349-a6130c83e8d0",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Shadow Community",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Turf",
+              "Politics",
+              "History",
+              "Organizations",
+              "Safe Houses",
+              "News",
+              "Personalities",
+              "Rumors",
+              "Famous Shadowrunners"
+            ]
+          },
+          "skillgroup": {},
+          "id": "fe3ccfd5-9e14-4e0a-962d-f9601fc24950",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Aztlaner Spanish",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "4c0b7b81-5dd4-4247-82da-88161992a374",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Street Gangs: Seattle",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "405 Hellhounds",
+              "Ancients",
+              "Black Rains",
+              "Blood Mountains Boys",
+              "Bloody Screamers",
+              "Brain Eaters",
+              "Crimson Crush",
+              "Disassemblers",
+              "First Nations",
+              "Forever Tacoma",
+              "Halloweeners",
+              "Kabuki Ronin",
+              "Lake Acids",
+              "Leather Devils",
+              "Night Hunters",
+              "Nova Rich",
+              "Princes",
+              "Reality Hackers",
+              "Red Hot Nukes",
+              "Red Rovers",
+              "Rusted Stilettos",
+              "Scatterbrains",
+              "Spiders",
+              "Spikes",
+              "The Ragers",
+              "Troll Killers"
+            ]
+          },
+          "skillgroup": {},
+          "id": "39f7b0cb-dd7c-4196-808b-8910119ea884",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Telesma",
+          "default": "False",
+          "specs": {
+            "spec": "[Focus Type]"
+          },
+          "skillgroup": {},
+          "id": "ea016ac9-8000-4cb3-ae84-102e9c989667",
+          "category": "Professional",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Tlingit",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "9d03c940-d018-40eb-8273-c33215de3948",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Triads: Hong Kong",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Black Chrysanthemums",
+              "Red Dragons",
+              "Yellow Lotus"
+            ]
+          },
+          "skillgroup": {},
+          "id": "ca63887a-1cee-4364-8fb9-126aa3526908",
+          "category": "Street",
+          "attribute": "INT"
+        },
+        {
+          "name": "Tsimshianic",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "7dd3d095-fdfb-4d95-b910-205f6e980434",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Uto-Aztecan",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "3fcfdd55-03f6-4e08-aaa6-6c98f15b1cd3",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Vehicles",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Military",
+              "Aircraft",
+              "Bikes",
+              "Boats",
+              "Cars",
+              "Spacecraft",
+              "Trains",
+              "Trucks",
+              "Vintage Cars"
+            ]
+          },
+          "skillgroup": {},
+          "id": "4e62ab4f-4877-4a7f-bcb9-3023fc443078",
+          "category": "Interest",
+          "attribute": "INT"
+        },
+        {
+          "name": "Yiddish",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "53b99129-39d5-4bc4-9815-6bab79144c7c",
+          "category": "Language",
+          "attribute": "INT"
+        },
+        {
+          "name": "Zuni",
+          "default": "False",
+          "specs": {
+            "spec": [
+              "Read/Write",
+              "Speak",
+              "[Dialect]",
+              "[Lingo]",
+              "Street",
+              "l33tspeak",
+              "Milspec",
+              "Corp",
+              "Orbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "037f8de4-9485-4efe-8e93-d7b929c62b29",
+          "category": "Language",
+          "attribute": "INT"
+        }
+      ]
+    },
+    "categories": {
+      "category": [
+        "Combat Active",
+        "Physical Active",
+        "Social Active",
+        "Magical Active",
+        "Pseudo-Magical Active",
+        "Resonance Active",
+        "Technical Active",
+        "Vehicle Active",
+        "Academic",
+        "Interest",
+        "Language",
+        "Professional",
+        "Street"
+      ]
+    },
+    "skills": {
+      "skill": [
+        {
+          "name": "Aeronautics Mechanic",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Aerospace",
+              "Fixed Wing",
+              "LTA (blimp)",
+              "Rotary Wing",
+              "Tilt Wing",
+              "Vector Thrust"
+            ]
+          },
+          "skillgroup": "Engineering",
+          "id": "b52f7575-eebf-41c4-938d-df3397b5ee68",
+          "page": "143",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Alchemy",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Combat",
+              "Command",
+              "Contact",
+              "Detection",
+              "Health",
+              "Illusion",
+              "Manipulation",
+              "Time",
+              "[Trigger]"
+            ]
+          },
+          "skillgroup": "Enchanting",
+          "id": "fc89344f-daa6-438e-b61d-23f10dd13e44",
+          "page": "142",
+          "category": "Magical Active",
+          "attribute": "MAG"
+        },
+        {
+          "name": "Animal Handling",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Herding",
+              "Riding",
+              "Training",
+              "[Animal Type]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "e09e5aa7-e496-41a2-97ce-17f577361888",
+          "page": "143",
+          "category": "Technical Active",
+          "attribute": "CHA"
+        },
+        {
+          "name": "Arcana",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Focus Design",
+              "Magical Artifacts",
+              "Spell Design",
+              "Spirit Formula",
+              "Spirit Theory"
+            ]
+          },
+          "skillgroup": {},
+          "id": "74a68a9e-8c5b-4998-8dbb-08c1e768afc3",
+          "page": "142",
+          "category": "Pseudo-Magical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Archery",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Bow",
+              "Crossbow",
+              "Non-Standard Ammunition",
+              "Slingshot"
+            ]
+          },
+          "skillgroup": {},
+          "id": "1537ca5c-fa93-4c05-b073-a2a0eed91b8e",
+          "page": "130",
+          "category": "Combat Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Armorer",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Armor",
+              "Artillery",
+              "Explosives",
+              "Firearms",
+              "Melee Weapons",
+              "Heavy Weapons",
+              "Weapon Accessories"
+            ]
+          },
+          "skillgroup": {},
+          "id": "ada6d9b2-e451-4289-be45-7085fa34a51a",
+          "page": "143",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Artificing",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Focus Analysis",
+              "[Focus Type]"
+            ]
+          },
+          "skillgroup": "Enchanting",
+          "id": "955d9376-3066-469d-8670-5170c1d59020",
+          "page": "142",
+          "category": "Magical Active",
+          "attribute": "MAG"
+        },
+        {
+          "name": "Artisan",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Carpentry",
+              "Cooking",
+              "Drawing",
+              "Sculpting",
+              "Fashion",
+              "Writing",
+              "[Discipline]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "2f4c706f-5ac5-4774-8a45-3b4667989a20",
+          "page": "143",
+          "category": "Technical Active",
+          "attribute": "INT"
+        },
+        {
+          "name": "Assensing",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Aura Reading",
+              "Astral Signatures",
+              "Psychometry",
+              "[Aura Type]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "59318078-e071-411b-9194-7222560e9f4a",
+          "page": "142",
+          "category": "Magical Active",
+          "attribute": "INT"
+        },
+        {
+          "name": "Astral Combat",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Magicians",
+              "Mana Barriers",
+              "Spirits",
+              "[Weapon Focus Type]",
+              "[Other Opponent Type]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "b7599a42-ceed-4558-b357-865aa3e317f5",
+          "page": "142",
+          "category": "Magical Active",
+          "attribute": "WIL"
+        },
+        {
+          "name": "Automatics",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Assault Rifles",
+              "Cyber-Implant",
+              "Machine Pistols",
+              "Submachine Guns",
+              "Carbines"
+            ]
+          },
+          "skillgroup": "Firearms",
+          "id": "788b387b-ee41-4e6a-bf22-481a8cc4cf9f",
+          "page": "130",
+          "category": "Combat Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Automotive Mechanic",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Hover",
+              "Tracked",
+              "Walker",
+              "Wheeled"
+            ]
+          },
+          "skillgroup": "Engineering",
+          "id": "5e5f2f7f-f63b-4f65-a65d-91b3d4523c6f",
+          "page": "143",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Banishing",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Spirits of Air",
+              "Spirits of Beasts",
+              "Spirits of Earth",
+              "Spirits of Fire",
+              "Spirits of Man",
+              "Spirits of Water",
+              "Guardian Spirit",
+              "Guidance Spirit",
+              "Plant Spirit",
+              "Task Spirit"
+            ]
+          },
+          "skillgroup": "Conjuring",
+          "id": "9a2d9175-d445-45ca-842d-90223ad13f05",
+          "page": "142",
+          "category": "Magical Active",
+          "attribute": "MAG"
+        },
+        {
+          "name": "Binding",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Spirits of Air",
+              "Spirits of Beasts",
+              "Spirits of Earth",
+              "Spirits of Fire",
+              "Spirits of Man",
+              "Spirits of Water",
+              "Guardian Spirit",
+              "Guidance Spirit",
+              "Plant Spirit",
+              "Task Spirit"
+            ]
+          },
+          "skillgroup": "Conjuring",
+          "id": "dfba7c09-3d95-43fd-be75-39b3e8b22cd3",
+          "page": "142",
+          "category": "Magical Active",
+          "attribute": "MAG"
+        },
+        {
+          "name": "Biotechnology",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Bioinformatics",
+              "Bioware",
+              "Cloning",
+              "Gene Therapy",
+              "Vat Maintenance"
+            ]
+          },
+          "skillgroup": "Biotech",
+          "id": "ba624682-a5c0-4cf5-b47b-1021e6a1800d",
+          "page": "144",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Blades",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Axes",
+              "Knives",
+              "Swords",
+              "Parrying"
+            ]
+          },
+          "skillgroup": "Close Combat",
+          "id": "48763fa5-4b89-48c7-80ff-d0a2761de4c0",
+          "page": "130",
+          "category": "Combat Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Chemistry",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Analytical",
+              "Biochemistry",
+              "Drugs",
+              "Inorganic",
+              "Organic",
+              "Physical",
+              "Toxins"
+            ]
+          },
+          "skillgroup": {},
+          "id": "bd4d977a-cbd4-4289-99bb-896caed6786a",
+          "page": "144",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Clubs",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Batons",
+              "Hammers",
+              "Saps",
+              "Staves",
+              "Parrying"
+            ]
+          },
+          "skillgroup": "Close Combat",
+          "id": "cd9f6bf7-fa48-464b-9a8f-c7ce26713a72",
+          "page": "131",
+          "category": "Combat Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Compiling",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": "[Sprite Type]"
+          },
+          "skillgroup": "Tasking",
+          "id": "f338d383-ffd8-4ff8-b99b-cf4c2ed1b159",
+          "page": "143",
+          "category": "Resonance Active",
+          "attribute": "RES"
+        },
+        {
+          "name": "Computer",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Edit File",
+              "Matrix Perception",
+              "Matrix Search",
+              "[Computer Matrix Action]"
+            ]
+          },
+          "skillgroup": "Electronics",
+          "id": "1c14bf0d-cc69-4126-9a95-1f2429c11aa5",
+          "page": "144",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Con",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Fast Talk",
+              "Seduction"
+            ]
+          },
+          "skillgroup": "Acting",
+          "id": "6d7f48d3-84a1-4fce-90d3-58d566f70fa6",
+          "page": "138",
+          "category": "Social Active",
+          "attribute": "CHA"
+        },
+        {
+          "name": "Counterspelling",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Combat",
+              "Detection",
+              "Health",
+              "Illusion",
+              "Manipulation"
+            ]
+          },
+          "skillgroup": "Sorcery",
+          "id": "3db81bcc-264b-47e1-847c-06bdacd88973",
+          "page": "142",
+          "category": "Magical Active",
+          "attribute": "MAG"
+        },
+        {
+          "name": "Cybercombat",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Devices",
+              "Grids",
+              "IC",
+              "Personas",
+              "Sprites",
+              "[Target Type]"
+            ]
+          },
+          "skillgroup": "Cracking",
+          "id": "7143f979-aa48-4cc8-a29c-e010400e6e11",
+          "page": "144",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Cybertechnology",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Bodyware",
+              "Cyberlimbs",
+              "Headware",
+              "Nanoware",
+              "Repair"
+            ]
+          },
+          "skillgroup": "Biotech",
+          "id": "9b386fe5-83b3-436f-9035-efd1c0f7a680",
+          "page": "144",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Decompiling",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": "[Sprite Type]"
+          },
+          "skillgroup": "Tasking",
+          "id": "64eed2e9-e61c-4cba-81d4-18a612cf2df6",
+          "page": "143",
+          "category": "Resonance Active",
+          "attribute": "RES"
+        },
+        {
+          "name": "Demolitions",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Commercial Explosives",
+              "Defusing",
+              "Improvised Explosives",
+              "Plastic Explosives"
+            ]
+          },
+          "skillgroup": {},
+          "id": "276877e1-5cdf-4e95-befd-13c1abb5ae02",
+          "page": "144",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Disenchanting",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": "[Type]"
+          },
+          "skillgroup": "Enchanting",
+          "id": "a9d9b686-bc4a-4347-b011-ff8f41455965",
+          "page": "142",
+          "category": "Magical Active",
+          "attribute": "MAG"
+        },
+        {
+          "name": "Disguise",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Camouflage",
+              "Cosmetic",
+              "Theatrical",
+              "Trideo & Video"
+            ]
+          },
+          "skillgroup": "Stealth",
+          "id": "9b2416b2-3e2b-4dd6-ab9d-530f493c1c22",
+          "page": "133",
+          "category": "Physical Active",
+          "attribute": "INT"
+        },
+        {
+          "name": "Diving",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Arctic",
+              "Cave",
+              "Commercial",
+              "Controlled Hyperventilation",
+              "Liquid Breathing Apparatus",
+              "Military",
+              "Mixed Gas",
+              "Oxygen Extraction",
+              "SCUBA",
+              "[Other Breathing Apparatus]",
+              "[Other Condition]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "23c3320c-5010-4b2e-ac46-76f0a86af0b9",
+          "page": "133",
+          "category": "Physical Active",
+          "attribute": "BOD"
+        },
+        {
+          "name": "Electronic Warfare",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Communications",
+              "Encryption",
+              "Jamming",
+              "Sensor Operations",
+              "[Electronic Warfare Matrix Action]"
+            ]
+          },
+          "skillgroup": "Cracking",
+          "id": "2c8e5f20-e52d-4844-89e9-51b92dba47df",
+          "page": "144",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Escape Artist",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Contortionism",
+              "Cuffs",
+              "Ropes",
+              "Zip Ties",
+              "[Other Restraint]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "3f93335c-49d6-4904-a97e-4c942ab05b59",
+          "page": "133",
+          "category": "Physical Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Etiquette",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Catholic Church",
+              "Corporate",
+              "High Society",
+              "Mafia",
+              "Magic",
+              "Matrix",
+              "Media",
+              "Mercenary",
+              "Street",
+              "Yakuza",
+              "[Culture or Subculture]"
+            ]
+          },
+          "skillgroup": "Influence",
+          "id": "b20acd11-f102-40f3-a641-e3c420fbdb91",
+          "page": "138",
+          "category": "Social Active",
+          "attribute": "CHA"
+        },
+        {
+          "name": "Exotic Melee Weapon",
+          "default": "False",
+          "source": "SR5",
+          "specs": {},
+          "skillgroup": {},
+          "id": "a1366ec2-772d-4f08-8c65-5f79464d975b",
+          "exotic": "True",
+          "page": "131",
+          "category": "Combat Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Exotic Ranged Weapon",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Blowguns",
+              "Gyrojet Pistols",
+              "Flamethrowers",
+              "Lasers",
+              "Spidersilk"
+            ]
+          },
+          "skillgroup": {},
+          "id": "88ee65ba-c797-4f9c-91fe-39bc43b0f9c8",
+          "exotic": "True",
+          "page": "131",
+          "category": "Combat Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Pilot Exotic Vehicle",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": "Festo Pigeon 2.0"
+          },
+          "skillgroup": {},
+          "id": "b5f95b50-e630-4162-a6a4-7dd6ab8d0256",
+          "exotic": "True",
+          "page": "131",
+          "category": "Vehicle Active",
+          "attribute": "REA"
+        },
+        {
+          "name": "First Aid",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Broken Bones",
+              "Burns",
+              "Gunshot Wounds",
+              "Resuscitation",
+              "[Type of Treatment]"
+            ]
+          },
+          "skillgroup": "Biotech",
+          "id": "47cb1e8b-c285-4c54-9aaa-75305ad6dd4f",
+          "page": "144",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Flight",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Desert",
+              "Distance",
+              "Sprinting",
+              "Urban",
+              "Wilderness",
+              "[Terrain]"
+            ]
+          },
+          "skillgroup": "Athletics",
+          "id": "27db6e2a-a49f-4232-b150-e676b8dacb52",
+          "page": "394",
+          "category": "Physical Active",
+          "attribute": "AGI",
+          "requiresflymovement": "True"
+        },
+        {
+          "name": "Forgery",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Counterfeiting",
+              "Credstick Forgery",
+              "False ID",
+              "Image Doctoring",
+              "Paper Forgery"
+            ]
+          },
+          "skillgroup": {},
+          "id": "c9f52f97-a284-44a7-8af6-802dd3ed554f",
+          "page": "144",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Free-Fall",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "BASE Jumping",
+              "Break-Fall",
+              "Bungee",
+              "HALO",
+              "Low Altitude",
+              "Parachute",
+              "Rappelling",
+              "Static Line",
+              "Wingsuit",
+              "Zipline"
+            ]
+          },
+          "skillgroup": {},
+          "id": "f510ccc3-cf95-4461-b2f7-e966daaa5a91",
+          "page": "133",
+          "category": "Physical Active",
+          "attribute": "BOD"
+        },
+        {
+          "name": "Gunnery",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Artillery",
+              "Ballistic",
+              "Energy",
+              "Guided Missile",
+              "Rocket"
+            ]
+          },
+          "skillgroup": {},
+          "id": "58452cff-44ea-41c6-a554-28a869149b27",
+          "page": "146",
+          "category": "Vehicle Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Gymnastics",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Balance",
+              "Climbing",
+              "Dance",
+              "Dodging",
+              "Leaping",
+              "Parkour",
+              "Rolling"
+            ]
+          },
+          "skillgroup": "Athletics",
+          "id": "a9fa961d-07e5-46da-8edc-403ae3e6cc75",
+          "page": "133",
+          "category": "Physical Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Hacking",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Devices",
+              "Files",
+              "Hosts",
+              "Personas"
+            ]
+          },
+          "skillgroup": "Cracking",
+          "id": "c2bb65f5-4a6b-49bf-9925-ef6434cb6929",
+          "page": "145",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Hardware",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Commlinks",
+              "Cyberdecks",
+              "Jack Out",
+              "Smartguns",
+              "[Hardware Type]",
+              "[Hardware Matrix Action]"
+            ]
+          },
+          "skillgroup": "Electronics",
+          "id": "41e184e0-7273-403a-9300-fa29a1707bf0",
+          "page": "145",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Heavy Weapons",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Assault Cannons",
+              "Grenade Launchers",
+              "Guided Missiles",
+              "Machine Guns",
+              "Rocket Launchers"
+            ]
+          },
+          "skillgroup": {},
+          "id": "64841e6e-9487-4b63-80a1-dcad6eb78179",
+          "page": "132",
+          "category": "Combat Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Impersonation",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Dwarf",
+              "Elf",
+              "Human",
+              "Ork",
+              "Troll"
+            ]
+          },
+          "skillgroup": "Acting",
+          "id": "e7e5a43f-9762-4863-86dc-3fd7799e53a2",
+          "page": "138",
+          "category": "Social Active",
+          "attribute": "CHA"
+        },
+        {
+          "name": "Industrial Mechanic",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Electrical Power Systems",
+              "Hydraulics",
+              "HVAC",
+              "Industrial Robotics",
+              "Structural",
+              "Welding"
+            ]
+          },
+          "skillgroup": "Engineering",
+          "id": "935621c5-d384-42f2-a740-1fa349fa85a1",
+          "page": "145",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Instruction",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": "[Active or Knowledge Skill Category]"
+          },
+          "skillgroup": {},
+          "id": "3b34b209-00be-42b8-b4ac-cc7dea08af8a",
+          "page": "138",
+          "category": "Social Active",
+          "attribute": "CHA"
+        },
+        {
+          "name": "Intimidation",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Interrogation",
+              "Mental",
+              "Physical",
+              "Torture"
+            ]
+          },
+          "skillgroup": {},
+          "id": "9de43fad-b365-4e73-bc06-91dd571b858a",
+          "page": "139",
+          "category": "Social Active",
+          "attribute": "CHA"
+        },
+        {
+          "name": "Leadership",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Command",
+              "Direct",
+              "Inspire",
+              "Rally"
+            ]
+          },
+          "skillgroup": "Influence",
+          "id": "963a548d-c629-4a13-a3e3-31b085a42e20",
+          "page": "139",
+          "category": "Social Active",
+          "attribute": "CHA"
+        },
+        {
+          "name": "Locksmith",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Combination",
+              "Keypad",
+              "Maglock",
+              "Tumbler",
+              "Voice Recognition",
+              "[Lock Type]"
+            ]
+          },
+          "skillgroup": {},
+          "id": "09fbc992-9fad-4f2d-ab56-725bac943dc6",
+          "page": "145",
+          "category": "Technical Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Longarms",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Extended-Range Shots",
+              "Long-Range Shots",
+              "Shotguns",
+              "Sniper Rifles",
+              "Sporting Rifles"
+            ]
+          },
+          "skillgroup": "Firearms",
+          "id": "64088b25-de37-4d71-8800-4a430fde08af",
+          "page": "132",
+          "category": "Combat Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Medicine",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Cosmetic Surgery",
+              "Extended Care",
+              "Implant Surgery",
+              "Magical Health",
+              "Organ Culture",
+              "Trauma Surgery",
+              "Veterinary"
+            ]
+          },
+          "skillgroup": "Biotech",
+          "id": "938be691-4b3d-49a2-a673-bbf9924ce8f0",
+          "page": "145",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Nautical Mechanic",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Motorboat",
+              "Sailboat",
+              "Ship",
+              "Submarine"
+            ]
+          },
+          "skillgroup": "Engineering",
+          "id": "48cc79be-f75e-4fe6-8721-7864c9f231f6",
+          "page": "145",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Navigation",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Augmented Reality Markers",
+              "Celestial",
+              "Compass",
+              "Maps",
+              "GPS"
+            ]
+          },
+          "skillgroup": "Outdoors",
+          "id": "f8037e7f-d48b-452b-8f66-2e0c36677fea",
+          "page": "145",
+          "category": "Technical Active",
+          "attribute": "INT"
+        },
+        {
+          "name": "Negotiation",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Bargaining",
+              "Contracts",
+              "Diplomacy"
+            ]
+          },
+          "skillgroup": "Influence",
+          "id": "729c9cee-ef8f-492d-aa7f-17ec1bc3816e",
+          "page": "139",
+          "category": "Social Active",
+          "attribute": "CHA"
+        },
+        {
+          "name": "Palming",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Legerdemain",
+              "Pickpocket",
+              "Pilfering"
+            ]
+          },
+          "skillgroup": "Stealth",
+          "id": "17fbaafa-8dbb-4f29-9244-5ae1cd4ac42f",
+          "page": "133",
+          "category": "Physical Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Perception",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Hearing",
+              "Numinous Perception",
+              "Scent",
+              "Searching",
+              "Taste",
+              "Touch",
+              "Visual"
+            ]
+          },
+          "skillgroup": {},
+          "id": "04e1eb3e-e82d-485b-a7fd-1e677df2a070",
+          "page": "133",
+          "category": "Physical Active",
+          "attribute": "INT"
+        },
+        {
+          "name": "Performance",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Acting",
+              "Comedy",
+              "Dance",
+              "Presentation",
+              "[Musical Instrument]"
+            ]
+          },
+          "skillgroup": "Acting",
+          "id": "53f96d6a-363b-4c14-be1d-68e74930c67b",
+          "page": "139",
+          "category": "Social Active",
+          "attribute": "CHA"
+        },
+        {
+          "name": "Pilot Aerospace",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Deep Space",
+              "Launch Craft",
+              "Remote Operation",
+              "Semiballistic",
+              "Suborbital"
+            ]
+          },
+          "skillgroup": {},
+          "id": "3ba9397e-f790-44ca-ae40-15a2356e348d",
+          "page": "146",
+          "category": "Vehicle Active",
+          "attribute": "REA"
+        },
+        {
+          "name": "Pilot Aircraft",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Fixed-Wing",
+              "Lighter-Than-Air",
+              "Remote Operation",
+              "Rotary Wing",
+              "Tilt Wing",
+              "Vectored Thrust"
+            ]
+          },
+          "skillgroup": {},
+          "id": "10d5c887-a1e5-4cca-8613-3a28f1aab810",
+          "page": "147",
+          "category": "Vehicle Active",
+          "attribute": "REA"
+        },
+        {
+          "name": "Pilot Ground Craft",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Bike",
+              "Hovercraft",
+              "Remote Operation",
+              "Tracked",
+              "Wheeled"
+            ]
+          },
+          "skillgroup": {},
+          "id": "ae91a8a6-80e7-4f52-b9eb-21725a5528a4",
+          "page": "147",
+          "category": "Vehicle Active",
+          "attribute": "REA"
+        },
+        {
+          "name": "Pilot Walker",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Biped",
+              "Multiped",
+              "Quadruped",
+              "Remote Operation"
+            ]
+          },
+          "skillgroup": {},
+          "id": "b8a24d87-465a-4365-9948-038fe1ac62c4",
+          "page": "147",
+          "category": "Vehicle Active",
+          "attribute": "REA"
+        },
+        {
+          "name": "Pilot Watercraft",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Hydrofoil",
+              "Motorboat",
+              "Remote Operation",
+              "Sail",
+              "Ship",
+              "Submarine"
+            ]
+          },
+          "skillgroup": {},
+          "id": "1579818e-af85-47cd-8c9f-2e86e9dc19da",
+          "page": "147",
+          "category": "Vehicle Active",
+          "attribute": "REA"
+        },
+        {
+          "name": "Pistols",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Holdouts",
+              "Revolvers",
+              "Semi-Automatics",
+              "Tasers"
+            ]
+          },
+          "skillgroup": "Firearms",
+          "id": "adf31a50-b228-4e09-a09c-46ab9f5e59a1",
+          "page": "132",
+          "category": "Combat Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Registering",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": "[Sprite Type]"
+          },
+          "skillgroup": "Tasking",
+          "id": "3a38bbcf-38b0-435b-98f2-4ce8c50e8490",
+          "page": "143",
+          "category": "Resonance Active",
+          "attribute": "RES"
+        },
+        {
+          "name": "Ritual Spellcasting",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": "[Keyword]"
+          },
+          "skillgroup": "Sorcery",
+          "id": "a6287e62-6a3b-43ce-b6e0-20f3655910e2",
+          "page": "142",
+          "category": "Magical Active",
+          "attribute": "MAG"
+        },
+        {
+          "name": "Running",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Desert",
+              "Distance",
+              "Sprinting",
+              "Urban",
+              "Wilderness",
+              "[Terrain]"
+            ]
+          },
+          "skillgroup": "Athletics",
+          "id": "1531b2d8-6116-4be4-87b0-232dba1fc447",
+          "requiresgroundmovement": "True",
+          "page": "133",
+          "category": "Physical Active",
+          "attribute": "STR"
+        },
+        {
+          "name": "Sneaking",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Desert",
+              "Jungle",
+              "Urban",
+              "Vehicle",
+              "Wilderness",
+              "[Terrain]"
+            ]
+          },
+          "skillgroup": "Stealth",
+          "id": "9cff9aa7-d092-4f89-8b7b-3ab835818874",
+          "page": "133",
+          "category": "Physical Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Software",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Data Bombs",
+              "[Complex Form]",
+              "[Program Type]",
+              "[Software Matrix Action]"
+            ]
+          },
+          "skillgroup": "Electronics",
+          "id": "b693f3bf-48dc-4570-9743-d94d14ee698b",
+          "page": "145",
+          "category": "Technical Active",
+          "attribute": "LOG"
+        },
+        {
+          "name": "Spellcasting",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Combat",
+              "Detection",
+              "Health",
+              "Illusion",
+              "Manipulation"
+            ]
+          },
+          "skillgroup": "Sorcery",
+          "id": "c4367a39-4065-4b1d-aa62-e9dce377e452",
+          "page": "143",
+          "category": "Magical Active",
+          "attribute": "MAG"
+        },
+        {
+          "name": "Summoning",
+          "default": "False",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Spirits of Air",
+              "Spirits of Beasts",
+              "Spirits of Earth",
+              "Spirits of Fire",
+              "Spirits of Man",
+              "Spirits of Water",
+              "Guardian Spirit",
+              "Guidance Spirit",
+              "Plant Spirit",
+              "Task Spirit"
+            ]
+          },
+          "skillgroup": "Conjuring",
+          "id": "51e34c6c-b07f-45f4-8a5e-8f2b617ed32f",
+          "page": "143",
+          "category": "Magical Active",
+          "attribute": "MAG"
+        },
+        {
+          "name": "Survival",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Desert",
+              "Forest",
+              "Jungle",
+              "Mountain",
+              "Polar",
+              "Urban",
+              "[Terrain]"
+            ]
+          },
+          "skillgroup": "Outdoors",
+          "id": "89ee1730-053a-400f-a13a-4fbadae015f0",
+          "page": "133",
+          "category": "Physical Active",
+          "attribute": "WIL"
+        },
+        {
+          "name": "Swimming",
+          "requiresswimmovement": "True",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Dash",
+              "Long Distance"
+            ]
+          },
+          "skillgroup": "Athletics",
+          "id": "0dbcb9cd-f824-4b5d-a387-90d33318b04c",
+          "page": "134",
+          "category": "Physical Active",
+          "attribute": "STR"
+        },
+        {
+          "name": "Throwing Weapons",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Aerodynamic",
+              "Blades",
+              "Non-Aerodynamic"
+            ]
+          },
+          "skillgroup": {},
+          "id": "867a6fa0-7d98-4cde-83a4-b33dd39de08e",
+          "page": "132",
+          "category": "Combat Active",
+          "attribute": "AGI"
+        },
+        {
+          "name": "Tracking",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Desert",
+              "Forest",
+              "Jungle",
+              "Mountain",
+              "Polar",
+              "Urban",
+              "[Terrain]"
+            ]
+          },
+          "skillgroup": "Outdoors",
+          "id": "7ed2f3e0-a791-4cb7-ba3e-ac785fdc3d7e",
+          "page": "134",
+          "category": "Physical Active",
+          "attribute": "INT"
+        },
+        {
+          "name": "Unarmed Combat",
+          "default": "True",
+          "source": "SR5",
+          "specs": {
+            "spec": [
+              "Blocking",
+              "Cyber Implants",
+              "Subduing Combat",
+              "[Martial Art]"
+            ]
+          },
+          "skillgroup": "Close Combat",
+          "id": "4fcd40cb-4b02-4b7e-afcb-f44d46cd5706",
+          "page": "132",
+          "category": "Combat Active",
+          "attribute": "AGI"
+        }
+      ]
+    }
+  }
+}

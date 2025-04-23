@@ -1,0 +1,794 @@
+{
+  "chummer": {
+    "categories": {
+      "category": [
+        "Autosofts",
+        "Advanced Programs",
+        "Common Programs",
+        "Hacking Programs",
+        "Software"
+      ]
+    },
+    "programs": {
+      "program": [
+        {
+          "name": "Browse",
+          "cost": "80",
+          "source": "SR5",
+          "id": "bed1f6eb-ead9-49aa-bb24-266c21d7aeb4",
+          "page": "245",
+          "avail": "0",
+          "category": "Common Programs"
+        },
+        {
+          "name": "Configurator",
+          "cost": "80",
+          "source": "SR5",
+          "id": "734f653b-35ca-4b26-b837-f64662878e8f",
+          "page": "245",
+          "avail": "0",
+          "category": "Common Programs"
+        },
+        {
+          "name": "Edit",
+          "cost": "80",
+          "source": "SR5",
+          "id": "dd35285a-7506-4b7e-8d5a-1b6ea8577e19",
+          "page": "245",
+          "avail": "0",
+          "category": "Common Programs"
+        },
+        {
+          "name": "Encryption",
+          "cost": "80",
+          "source": "SR5",
+          "id": "a1dd8536-d2ca-41cd-be55-4adfdc52068b",
+          "page": "245",
+          "avail": "0",
+          "category": "Common Programs"
+        },
+        {
+          "name": "Signal Scrub",
+          "cost": "80",
+          "source": "SR5",
+          "id": "3f2498d9-b575-474c-9b18-b959442011c5",
+          "page": "245",
+          "avail": "0",
+          "category": "Common Programs"
+        },
+        {
+          "name": "Toolbox",
+          "cost": "80",
+          "source": "SR5",
+          "id": "1861266c-9439-4816-9b1e-09ea9bbac9ec",
+          "page": "245",
+          "avail": "0",
+          "category": "Common Programs"
+        },
+        {
+          "name": "Virtual Machine",
+          "cost": "80",
+          "source": "SR5",
+          "id": "c56fd11b-f543-4c1f-8f97-6e7a82265885",
+          "page": "245",
+          "avail": "0",
+          "category": "Common Programs"
+        },
+        {
+          "name": "Armor",
+          "cost": "250",
+          "source": "SR5",
+          "id": "6968d7e3-b58f-4199-af6f-5877097a51da",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Baby Monitor",
+          "cost": "250",
+          "source": "SR5",
+          "id": "f5a1d20b-caa2-4a53-ab42-6e71ee519702",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Biofeedback",
+          "cost": "250",
+          "source": "SR5",
+          "id": "9bc73d88-bad2-4ae9-b9ea-fe004447e493",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Biofeedback Filter",
+          "cost": "250",
+          "source": "SR5",
+          "id": "f05f35c3-1c35-4bac-9ecb-1a6ebf9f89dd",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Blackout",
+          "cost": "250",
+          "source": "SR5",
+          "id": "f1329065-8e71-41d8-8090-a5e8f91cf031",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Decryption",
+          "cost": "250",
+          "source": "SR5",
+          "id": "de82aad2-da77-4478-a621-85ad02d70120",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Defuse",
+          "cost": "250",
+          "source": "SR5",
+          "id": "6e6805d2-504d-422e-82d2-f782a912b2a7",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Demolition",
+          "cost": "250",
+          "source": "SR5",
+          "id": "a52cc5e5-83f5-4bcd-9fea-4f9ff5f52765",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Exploit",
+          "cost": "250",
+          "source": "SR5",
+          "id": "16b4bbc1-3a19-490c-90a8-0d102f18e709",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Fork",
+          "cost": "250",
+          "source": "SR5",
+          "id": "b96ebe65-9bb5-49e7-8d23-a209eae7f9f3",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Guard",
+          "cost": "250",
+          "source": "SR5",
+          "id": "4a79b908-8239-4b3a-9c82-e2420be2a174",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Hammer",
+          "cost": "250",
+          "source": "SR5",
+          "id": "d2f96d3a-9dcb-4b46-b5bd-b98a730bf1d7",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Lockdown",
+          "cost": "250",
+          "source": "SR5",
+          "id": "01c5f885-d14f-478d-8e1d-612773035480",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Mugger",
+          "cost": "250",
+          "source": "SR5",
+          "id": "e3382b40-114e-456a-982a-f52d135527f5",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Shell",
+          "cost": "250",
+          "source": "SR5",
+          "id": "ff9378d1-b6bc-4adc-8651-a9689a1b92b9",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Sneak",
+          "cost": "250",
+          "source": "SR5",
+          "id": "f7b5a9a3-c030-4647-b043-f968913867b4",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Stealth",
+          "cost": "250",
+          "source": "SR5",
+          "id": "a381db11-6e7f-4472-b4ef-79a16be65ba4",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Track",
+          "cost": "250",
+          "source": "SR5",
+          "id": "7306594f-5e07-440e-a2db-a6dfbe0b90cb",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Wrapper",
+          "cost": "250",
+          "source": "SR5",
+          "id": "1b78748c-9a1d-427f-8657-e3e2bc8fd5b5",
+          "page": "245",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Bootstrap",
+          "cost": "80",
+          "rating": "0",
+          "source": "DT",
+          "id": "60b9ec51-8f80-4f1e-81e6-0747ecaf78c9",
+          "page": "56",
+          "avail": "0",
+          "category": "Common Programs"
+        },
+        {
+          "name": "Search",
+          "cost": "80",
+          "rating": "0",
+          "source": "DT",
+          "id": "515f6d35-044e-4f4b-9a8b-1ff12e346648",
+          "page": "56",
+          "avail": "0",
+          "category": "Common Programs"
+        },
+        {
+          "name": "Shredder",
+          "cost": "80",
+          "rating": "0",
+          "source": "DT",
+          "id": "1fde3c4b-54a5-4961-ba80-decfb3df510f",
+          "page": "56",
+          "avail": "0",
+          "category": "Common Programs"
+        },
+        {
+          "name": "Cat's Paw",
+          "cost": "250",
+          "rating": "0",
+          "source": "DT",
+          "id": "993fef0e-ff9e-499e-af06-f89aa492d931",
+          "page": "56",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Cloudless",
+          "cost": "250",
+          "rating": "0",
+          "source": "DT",
+          "id": "f5570527-0ae3-43ca-ac72-8193c7b1c182",
+          "page": "56",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Crash (Program)",
+          "cost": "250",
+          "rating": "0",
+          "source": "DT",
+          "id": "cb69aa6d-9d86-4786-b76e-8f76888c664f",
+          "page": "57",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Detonator",
+          "cost": "500",
+          "rating": "0",
+          "source": "DT",
+          "id": "382c8857-6a1a-4459-b310-e34d71ecb4c7",
+          "page": "57",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Evaluate",
+          "cost": "250",
+          "rating": "0",
+          "source": "DT",
+          "id": "946302c5-7da8-4310-8a76-aa57e5e8a70a",
+          "page": "57",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Fly on a Wall",
+          "cost": "250",
+          "rating": "0",
+          "source": "DT",
+          "id": "7677ed19-8ce8-4081-b3d1-b9ed11daf1a5",
+          "page": "57",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Hitchhiker",
+          "cost": "250",
+          "rating": "0",
+          "source": "DT",
+          "id": "fc47acc2-9b72-42f9-a5b0-18b1e6bf225e",
+          "page": "57",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Nuke-from-Orbit",
+          "cost": "250",
+          "rating": "0",
+          "source": "DT",
+          "id": "d57f676e-dcb2-485c-a349-0dc19eead2d2",
+          "page": "57",
+          "avail": "12F",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Paintjob",
+          "cost": "250",
+          "rating": "0",
+          "source": "DT",
+          "id": "df2cebe3-225e-4da7-ac9b-c67dca4f5c73",
+          "page": "57",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Smoke and Mirrors",
+          "cost": "250",
+          "rating": "0",
+          "source": "DT",
+          "id": "9907b8c0-b166-49e2-9ecc-100fac19dee6",
+          "page": "57",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Swerve",
+          "cost": "250",
+          "rating": "0",
+          "source": "DT",
+          "id": "0efe725c-2793-428b-9ee5-63ae17e3d11f",
+          "page": "57",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Tantrum",
+          "cost": "250",
+          "rating": "0",
+          "source": "DT",
+          "id": "0f6b9883-4b22-4f83-a7bb-9763c62e337b",
+          "page": "57",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Tarball",
+          "cost": "250",
+          "rating": "0",
+          "source": "DT",
+          "id": "240fd268-d2fa-40a0-9a2e-7613dc2a8ecd",
+          "page": "57",
+          "avail": "4R",
+          "category": "Hacking Programs"
+        },
+        {
+          "name": "Agent",
+          "cost": "FixedValues([1000],[2000],[3000],[8000],[10000],[12000])",
+          "rating": "6",
+          "source": "SR5",
+          "id": "9ebde6f6-a232-4af8-9e16-b553094160fa",
+          "page": "246",
+          "avail": "Rating * 3",
+          "category": "Software"
+        },
+        {
+          "name": "Swarm",
+          "cost": "600",
+          "rating": "0",
+          "source": "R5",
+          "id": "8ba242b1-87c7-4f07-a318-e41d9241ca25",
+          "page": "31",
+          "avail": "0",
+          "category": "Software"
+        },
+        {
+          "name": "Clearsight Autosoft",
+          "cost": "Rating * 500",
+          "rating": "6",
+          "source": "SR5",
+          "id": "012d2de2-79cb-4f3b-9571-47c8b550a505",
+          "page": "269",
+          "avail": "Rating * 2",
+          "category": "Autosofts"
+        },
+        {
+          "name": "Electronic Warfare Autosoft",
+          "cost": "Rating * 500",
+          "rating": "6",
+          "source": "SR5",
+          "id": "434e08f4-43c1-4684-8b65-c55f5db61405",
+          "page": "269",
+          "avail": "Rating * 2",
+          "category": "Autosofts"
+        },
+        {
+          "name": "[Model] Evasion Autosoft",
+          "cost": "Rating * 500",
+          "rating": "6",
+          "source": "SR5",
+          "id": "f4c2f78b-1659-469d-acf0-7264c8c5c65f",
+          "page": "269",
+          "bonus": {
+            "selecttext": {}
+          },
+          "avail": "Rating * 2",
+          "category": "Autosofts"
+        },
+        {
+          "name": "[Model] Maneuvering Autosoft",
+          "cost": "Rating * 500",
+          "rating": "6",
+          "source": "SR5",
+          "id": "e9110525-4261-4626-b765-8668eec04fd3",
+          "page": "269",
+          "bonus": {
+            "selecttext": {}
+          },
+          "avail": "Rating * 2",
+          "category": "Autosofts"
+        },
+        {
+          "name": "[Model] Stealth Autosoft",
+          "cost": "Rating * 500",
+          "rating": "6",
+          "source": "SR5",
+          "id": "9255a84b-b146-4998-bb17-36c5d6b4fa7d",
+          "page": "270",
+          "bonus": {
+            "selecttext": {}
+          },
+          "avail": "Rating * 2",
+          "category": "Autosofts"
+        },
+        {
+          "name": "[Weapon] Targeting Autosoft",
+          "cost": "Rating * 500",
+          "rating": "6",
+          "source": "SR5",
+          "id": "052220bd-c15e-41e6-8455-d3a7c5c8e639",
+          "page": "270",
+          "bonus": {
+            "selecttext": {}
+          },
+          "avail": "Rating * 2",
+          "category": "Autosofts"
+        },
+        {
+          "name": "Smartsoft",
+          "cost": "1500",
+          "rating": "3",
+          "source": "R5",
+          "id": "0cc0ac2e-542d-4762-bd8c-70e734d96be1",
+          "page": "127",
+          "avail": "6R",
+          "category": "Autosofts",
+          "minrating": "3"
+        },
+        {
+          "name": "Group Autosoft",
+          "cost": "1000",
+          "rating": "2",
+          "source": "R5",
+          "id": "37334b00-4143-4587-bffa-85b7f96c59bb",
+          "page": "127",
+          "avail": "4",
+          "category": "Autosofts",
+          "minrating": "2"
+        },
+        {
+          "name": "Skill Autosoft",
+          "cost": "Rating * 500",
+          "rating": "6",
+          "source": "R5",
+          "id": "1310e977-beee-46f6-afce-91d851d89dc4",
+          "page": "127",
+          "bonus": {
+            "selecttext": {}
+          },
+          "avail": "Rating * 2",
+          "category": "Autosofts"
+        },
+        {
+          "name": "Skill Autosoft (Restricted)",
+          "cost": "Rating * 500",
+          "rating": "6",
+          "source": "R5",
+          "id": "c52e0caa-d520-4f4b-ae02-f741ca1bf356",
+          "page": "127",
+          "bonus": {
+            "selectskill": {}
+          },
+          "avail": "(Rating * 2)R",
+          "category": "Autosofts"
+        },
+        {
+          "name": "[Weapon] Melee Autosoft",
+          "cost": "Rating * 500",
+          "rating": "6",
+          "source": "R5",
+          "id": "af2fcad7-0ef5-454a-aac7-64c9ad495654",
+          "page": "127",
+          "bonus": {
+            "selecttext": {}
+          },
+          "avail": "Rating * 2",
+          "category": "Autosofts"
+        },
+        {
+          "name": "Abduction",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Clearsight Autosoft"
+            }
+          },
+          "id": "dfd1e040-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "158",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Authority",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Exploit"
+            }
+          },
+          "id": "dfd1e39c-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "158",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Cascade",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Decryption"
+            }
+          },
+          "id": "dfd1e5c2-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "158",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Eguchi Smile",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Wrapper"
+            }
+          },
+          "id": "dfd1e7e8-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "158",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Fnord",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Sneak"
+            }
+          },
+          "id": "dfd1e978-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "158",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Medic",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Toolbox"
+            }
+          },
+          "id": "dfd1eb26-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "159",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Nyetworking",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Cat's Paw"
+            }
+          },
+          "id": "dfd1ed06-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "159",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Poke",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Exploit"
+            }
+          },
+          "id": "dfd1ef36-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "159",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Psychotropic Biofeedback",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Biofeedback"
+            }
+          },
+          "id": "dfd1f184-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "160",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Rootkit",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Stealth"
+            }
+          },
+          "id": "dfd1f38c-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "160",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Rust",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Guard"
+            }
+          },
+          "id": "dfd1f5d0-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "160",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Shunt",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Shell"
+            }
+          },
+          "id": "dfd1f7f6-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "160",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Spotter",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "[Weapon] Targeting Autosoft"
+            }
+          },
+          "id": "dfd1f940-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "160",
+          "bonus": {
+            "selecttext": {}
+          },
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Teergrube",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Lockdown"
+            }
+          },
+          "id": "dfd1fbe8-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "160",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "Uncertainty",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "Cat's Paw"
+            }
+          },
+          "id": "dfd1fe90-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "160",
+          "avail": "0F",
+          "category": "Advanced Programs"
+        },
+        {
+          "name": "WTLM",
+          "cost": "0",
+          "source": "DT",
+          "required": {
+            "oneof": {
+              "program": "[Model] Maneuvering Autosoft"
+            }
+          },
+          "id": "dfd2783e-ba62-11e6-a4a6-cec0c932ce01",
+          "page": "160",
+          "bonus": {
+            "selecttext": {}
+          },
+          "avail": "0F",
+          "category": "Advanced Programs"
+        }
+      ]
+    }
+  }
+}
