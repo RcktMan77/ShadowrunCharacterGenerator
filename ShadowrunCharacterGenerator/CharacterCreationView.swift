@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CharacterCreationView: View {
+    @EnvironmentObject var dataManager: DataManager
     @State private var character = Character(
         name: "",
         metatype: "",
@@ -31,8 +32,8 @@ struct CharacterCreationView: View {
         sourcebooks: []
     )
     @State private var currentStep: CreationStep = .priority
+    @State private var selectedMetatypePriority: String = ""
     let onComplete: (Character) -> Void
-    @EnvironmentObject var dataManager: DataManager
     
     enum CreationStep {
         case priority, metatype, attributes, skills, magic, resources, qualities, contacts, sourcebooks
@@ -43,58 +44,96 @@ struct CharacterCreationView: View {
             VStack {
                 switch currentStep {
                 case .priority:
-                    PrioritySelectionView(character: $character, onComplete: {
-                        currentStep = .metatype
-                    })
+                    PrioritySelectionView(
+                        character: $character,
+                        selectedMetatypePriority: $selectedMetatypePriority,
+                        onComplete: {
+                            currentStep = .metatype
+                        }
+                    )
                 case .metatype:
-                    MetatypeSelectionView(character: $character, onComplete: {
-                        currentStep = .attributes
-                    })
+                    MetatypeSelectionView(
+                        character: $character,
+                        selectedMetatypePriority: $selectedMetatypePriority,
+                        onComplete: {
+                            currentStep = .attributes
+                        },
+                        onPrevious: {
+                            currentStep = .priority
+                        }
+                    )
                 case .attributes:
-                    AttributesAllocationView(character: $character, onComplete: {
-                        currentStep = .skills
-                    })
+                    AttributesAllocationView(
+                        character: $character,
+                        onComplete: {
+                            currentStep = .skills
+                        }
+                    )
                 case .skills:
-                    SkillsAllocationView(character: $character, onComplete: {
-                        currentStep = .magic
-                    })
+                    SkillsAllocationView(
+                        character: $character,
+                        onComplete: {
+                            currentStep = .magic
+                        }
+                    )
                 case .magic:
-                    MagicSelectionView(character: $character, onComplete: {
-                        currentStep = .resources
-                    })
+                    MagicSelectionView(
+                        character: $character,
+                        onComplete: {
+                            currentStep = .resources
+                        }
+                    )
                 case .resources:
-                    ResourcesAllocationView(character: $character, onComplete: {
-                        currentStep = .qualities
-                    })
+                    ResourcesAllocationView(
+                        character: $character,
+                        onComplete: {
+                            currentStep = .qualities
+                        }
+                    )
                 case .qualities:
-                    QualitiesSelectionView(character: $character, onComplete: {
-                        currentStep = .contacts
-                    })
+                    QualitiesSelectionView(
+                        character: $character,
+                        onComplete: {
+                            currentStep = .contacts
+                        }
+                    )
                 case .contacts:
-                    ContactsSelectionView(character: $character, onComplete: {
-                        currentStep = .sourcebooks
-                    })
+                    ContactsSelectionView(
+                        character: $character,
+                        onComplete: {
+                            currentStep = .sourcebooks
+                        }
+                    )
                 case .sourcebooks:
-                    SourcebookSelectionView(character: $character, onComplete: {
-                        onComplete(character)
-                    })
+                    SourcebookSelectionView(
+                        character: $character,
+                        onComplete: {
+                            onComplete(character)
+                        }
+                    )
                 }
-                Button("Next") {
-                    switch currentStep {
-                    case .priority: currentStep = .metatype
-                    case .metatype: currentStep = .attributes
-                    case .attributes: currentStep = .skills
-                    case .skills: currentStep = .magic
-                    case .magic: currentStep = .resources
-                    case .resources: currentStep = .qualities
-                    case .qualities: currentStep = .contacts
-                    case .contacts: currentStep = .sourcebooks
-                    case .sourcebooks: onComplete(character)
+                
+                HStack {
+                    if currentStep != .priority {
+                        Button("Previous") {
+                            switch currentStep {
+                            case .metatype: currentStep = .priority
+                            case .attributes: currentStep = .metatype
+                            case .skills: currentStep = .attributes
+                            case .magic: currentStep = .skills
+                            case .resources: currentStep = .magic
+                            case .qualities: currentStep = .resources
+                            case .contacts: currentStep = .qualities
+                            case .sourcebooks: currentStep = .contacts
+                            case .priority: break
+                            }
+                        }
+                        .buttonStyle(.bordered)
                     }
+                    
+                    Spacer()
                 }
-                .buttonStyle(.borderedProminent)
                 .padding()
-                .disabled(currentStep == .sourcebooks && character.sourcebooks.isEmpty)
             }
             .navigationTitle("Character Creation")
         }

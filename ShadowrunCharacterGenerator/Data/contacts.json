@@ -1,36 +1,5 @@
 {
   "chummer": {
-    "genders": {
-      "gender": [
-        "Female",
-        "Male",
-        "Unknown"
-      ]
-    },
-    "types": {
-      "type": [
-        "Legwork",
-        "Networking",
-        "Swag",
-        "Shadow Services",
-        "Personal Favors",
-        "Support"
-      ]
-    },
-    "preferredpayments": {
-      "preferredpayment": [
-        "Barter (Easy-to-Sell Items)",
-        "Barter (Hobby/Vice Items)",
-        "Barter (Profession Items)",
-        "Cash (Corp Scrip)",
-        "Cash (Credstick)",
-        "Cash (Hard Currency)",
-        "Cash (ECC)",
-        "Service (Drek Jobs)",
-        "Service (Free-Labor Jobs)",
-        "Service (Shadowrunner Job)"
-      ]
-    },
     "contacts": {
       "contact": [
         "Amerindian Tribesperson",
@@ -110,6 +79,13 @@
         "Wiz Kid Ganger"
       ]
     },
+    "genders": {
+      "gender": [
+        "Female",
+        "Male",
+        "Unknown"
+      ]
+    },
     "ages": {
       "age": [
         "Young",
@@ -127,6 +103,30 @@
         "Single",
         "Widowed",
         "Unknown"
+      ]
+    },
+    "types": {
+      "type": [
+        "Legwork",
+        "Networking",
+        "Swag",
+        "Shadow Services",
+        "Personal Favors",
+        "Support"
+      ]
+    },
+    "preferredpayments": {
+      "preferredpayment": [
+        "Barter (Easy-to-Sell Items)",
+        "Barter (Hobby/Vice Items)",
+        "Barter (Profession Items)",
+        "Cash (Corp Scrip)",
+        "Cash (Credstick)",
+        "Cash (Hard Currency)",
+        "Cash (ECC)",
+        "Service (Drek Jobs)",
+        "Service (Free-Labor Jobs)",
+        "Service (Shadowrunner Job)"
       ]
     },
     "hobbiesvices": {

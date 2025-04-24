@@ -22,18 +22,18 @@ struct DrugComponentsView: View {
                             VStack(alignment: .leading) {
                                 Text(NSLocalizedString(component.name, comment: "Component name"))
                                     .font(.headline)
-                                Text(NSLocalizedString("Effect", comment: "Label")) + Text(": \(component.effect)")
+                                Text(NSLocalizedString("Effect", comment: "Label")) + Text(": \(effectSummary(for: component))")
                                 Text(NSLocalizedString("Availability", comment: "Label")) + Text(": \(component.availability)")
                             }
                             Spacer()
                             Text("\(component.cost) Nuyen")
                             Button(NSLocalizedString("Buy", comment: "Button")) {
-                                if character.nuyen >= component.cost {
-                                    character.nuyen -= component.cost
+                                if let cost = Int(component.cost), character.nuyen >= cost {
+                                    character.nuyen -= cost
                                     character.gear[component.name, default: 0] += 1
                                 }
                             }
-                            .disabled(character.nuyen < component.cost)
+                            .disabled(!canAfford(component))
                         }
                     }
                 }
@@ -43,6 +43,25 @@ struct DrugComponentsView: View {
             }
         }
         .navigationTitle(NSLocalizedString("Drug Components", comment: "Title"))
+    }
+    
+    private func effectSummary(for component: DrugComponent) -> String {
+        guard let effects = component.effects, let firstEffect = effects.first else {
+            return "None"
+        }
+        if let attributes = firstEffect.attribute, let firstAttr = attributes.first {
+            return "\(firstAttr.name): \(firstAttr.value)"
+        } else if let quality = firstEffect.quality {
+            return quality.name
+        }
+        return "Level \(firstEffect.level)"
+    }
+    
+    private func canAfford(_ component: DrugComponent) -> Bool {
+        if let cost = Int(component.cost) {
+            return character.nuyen >= cost
+        }
+        return false
     }
 }
 
@@ -70,6 +89,29 @@ struct DrugComponentsView_Previews: PreviewProvider {
             martialArts: [],
             sourcebooks: []
         )))
-        .environmentObject(DataManager())
+        .environmentObject({
+            let dm = DataManager()
+            dm.drugComponents = [
+                DrugComponent(
+                    id: "1",
+                    name: "Stimulant",
+                    category: "Chemical",
+                    effects: [
+                        Effect(
+                            level: "1",
+                            attribute: [Attribute(name: "Reaction", value: "+1")],
+                            quality: nil
+                        )
+                    ],
+                    availability: "6",
+                    cost: "100",
+                    rating: "1",
+                    threshold: "2",
+                    source: "Core",
+                    page: "123"
+                )
+            ]
+            return dm
+        }())
     }
 }
