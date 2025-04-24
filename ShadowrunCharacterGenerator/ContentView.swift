@@ -28,25 +28,41 @@ struct ContentView: View {
         echoes: [],
         licenses: [:],
         lifestyle: nil,
-        martialArts: [], sourcebooks: <#[String]#>
+        martialArts: [],
+        sourcebooks: []
     )
-    @State private var step: CreationStep = .priority
-    
-    enum CreationStep {
-        case priority, metatype, attributes, skills, magic, resources, qualities, contacts, complete
-    }
+    @State private var isCharacterSheetPresented = false
     
     var body: some View {
         NavigationView {
             List {
-                NavigationLink("Create Character", destination: characterCreationView)
-                NavigationLink("Character Sheet", destination: CharacterSheetView(character: $character))
-                NavigationLink("Sourcebooks", destination: SourcebookSelectionView())
-                NavigationLink("Qualities", destination: QualitiesSelectionView(character: $character))
-                NavigationLink("Gear", destination: GearSelectionView(character: $character))
-                NavigationLink("Contacts", destination: ContactsSelectionView(character: $character))
-                NavigationLink("Progression", destination: ProgressionView(character: $character))
-                NavigationLink("Martial Arts", destination: MartialArtsView(character: $character))
+                NavigationLink("Create Character") {
+                    CharacterCreationView(onComplete: { createdCharacter in
+                        character = createdCharacter
+                        isCharacterSheetPresented = true
+                    })
+                }
+                NavigationLink("Character Sheet") {
+                    CharacterSheetView(character: character)
+                }
+                NavigationLink("Sourcebooks") {
+                    SourcebookSelectionView(character: $character, onComplete: {})
+                }
+                NavigationLink("Qualities") {
+                    QualitiesSelectionView(character: $character, onComplete: {})
+                }
+                NavigationLink("Gear") {
+                    GearSelectionView(character: $character)
+                }
+                NavigationLink("Contacts") {
+                    ContactsSelectionView(character: $character, onComplete: {})
+                }
+                NavigationLink("Progression") {
+                    ProgressionView(character: $character)
+                }
+                NavigationLink("Martial Arts") {
+                    MartialArtsView(character: $character)
+                }
             }
             .listStyle(SidebarListStyle())
             .navigationTitle("Shadowrun Character Generator")
@@ -56,45 +72,8 @@ struct ContentView: View {
                 .foregroundColor(.gray)
         }
         .environmentObject(dataManager)
-    }
-    
-    @ViewBuilder
-    var characterCreationView: some View {
-        switch step {
-        case .priority:
-            PrioritySelectionView(character: $character) {
-                step = .metatype
-            }
-        case .metatype:
-            MetatypeSelectionView(character: $character) {
-                step = .attributes
-            }
-        case .attributes:
-            AttributesAllocationView(character: $character) {
-                step = .skills
-            }
-        case .skills:
-            SkillsAllocationView(character: $character) {
-                step = .magic
-            }
-        case .magic:
-            MagicSelectionView(character: $character) {
-                step = .resources
-            }
-        case .resources:
-            ResourcesAllocationView(character: $character) {
-                step = .qualities
-            }
-        case .qualities:
-            QualitiesSelectionView(character: $character) {
-                step = .contacts
-            }
-        case .contacts:
-            ContactsSelectionView(character: $character) {
-                step = .complete
-            }
-        case .complete:
-            CharacterSheetView(character: $character)
+        .sheet(isPresented: $isCharacterSheetPresented) {
+            CharacterSheetView(character: character)
         }
     }
 }
@@ -102,5 +81,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(DataManager())
     }
 }

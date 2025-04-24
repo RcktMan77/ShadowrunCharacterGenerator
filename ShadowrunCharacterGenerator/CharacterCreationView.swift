@@ -31,7 +31,7 @@ struct CharacterCreationView: View {
         sourcebooks: []
     )
     @State private var currentStep: CreationStep = .priority
-    @State private var isCreationComplete = false
+    let onComplete: (Character) -> Void
     @EnvironmentObject var dataManager: DataManager
     
     enum CreationStep {
@@ -76,7 +76,7 @@ struct CharacterCreationView: View {
                     })
                 case .sourcebooks:
                     SourcebookSelectionView(character: $character, onComplete: {
-                        isCreationComplete = true
+                        onComplete(character)
                     })
                 }
                 Button("Next") {
@@ -89,7 +89,7 @@ struct CharacterCreationView: View {
                     case .resources: currentStep = .qualities
                     case .qualities: currentStep = .contacts
                     case .contacts: currentStep = .sourcebooks
-                    case .sourcebooks: isCreationComplete = true
+                    case .sourcebooks: onComplete(character)
                     }
                 }
                 .buttonStyle(.borderedProminent)
@@ -97,16 +97,13 @@ struct CharacterCreationView: View {
                 .disabled(currentStep == .sourcebooks && character.sourcebooks.isEmpty)
             }
             .navigationTitle("Character Creation")
-            .sheet(isPresented: $isCreationComplete) {
-                CharacterSheetView(character: character)
-            }
         }
     }
 }
 
 struct CharacterCreationView_Previews: PreviewProvider {
     static var previews: some View {
-        CharacterCreationView()
+        CharacterCreationView(onComplete: { _ in })
             .environmentObject(DataManager())
     }
 }

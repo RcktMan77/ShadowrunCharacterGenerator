@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AppKit
 import UniformTypeIdentifiers
 
 struct SourcebookSelectionView: View {
@@ -52,10 +53,11 @@ struct SourcebookSelectionView: View {
                 }
             }
             .sheet(isPresented: $showingDocumentPicker) {
-                DocumentPicker { url in
+                OpenPanel { url in
                     if let url = url, let code = selectedBookCode {
                         dataManager.selectedSourcebooks[code] = url
                     }
+                    showingDocumentPicker = false
                 }
             }
             
@@ -76,34 +78,44 @@ struct SourcebookSelectionView: View {
     }
 }
 
-struct DocumentPicker: UIViewControllerRepresentable {
+struct OpenPanel: NSViewControllerRepresentable {
     let onSelect: (URL?) -> Void
     
-    func makeUIViewController(context: Context) -> UIDocumentPickerViewController {
-        let picker = UIDocumentPickerViewController(forOpeningContentTypes: [UTType.pdf])
-        picker.delegate = context.coordinator
-        return picker
+    func makeNSViewController(context: Context) -> NSViewController {
+        let controller = NSViewController()
+        context.coordinator.parent = self
+        return controller
     }
     
-    func updateUIViewController(_ uiViewController: UIDocumentPickerViewController, context: Context) {}
+    func updateNSViewController(_ nsViewController: NSViewController, context: Context) {}
     
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
     }
     
-    class Coordinator: NSObject, UIDocumentPickerDelegate {
-        let parent: DocumentPicker
+    class Coordinator: NSObject {
+        var parent: OpenPanel
         
-        init(_ parent: DocumentPicker) {
+        init(_ parent: OpenPanel) {
             self.parent = parent
+            super.init()
+            openPanel()
         }
         
-        func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
-            parent.onSelect(urls.first)
-        }
-        
-        func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) {
-            parent.onSelect(nil)
+        func openPanel() {
+            let panel = NSOpenPanel()
+            panel.allowedContentTypes = [.pdf]
+            panel.allowsMultipleSelection = false
+            panel.canChooseDirectories = false
+            panel.canChooseFiles = true
+            
+            panel.begin { response in
+                if response == .OK, let url = panel.url {
+                    self.parent.onSelect(url)
+                } else {
+                    self.parent.onSelect(nil)
+                }
+            }
         }
     }
 }

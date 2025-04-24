@@ -7,6 +7,7 @@
 
 import SwiftUI
 import PDFKit
+import AppKit
 
 struct CharacterSheetView: View {
     let character: Character
@@ -80,7 +81,7 @@ struct CharacterSheetView: View {
                         Text("No contacts assigned")
                     } else {
                         ForEach(character.contacts.sorted(by: { $0.key < $1.key }), id: \.key) { key, value in
-                            LabeledContent(key, value: "\(value)")
+                            LabeledContent(key, value: "Loyalty: \(value.loyalty), Connection: \(value.connection)")
                         }
                     }
                 }
@@ -160,21 +161,17 @@ struct CharacterSheetView: View {
     }
 }
 
-struct PDFViewer: UIViewRepresentable {
+struct PDFViewer: NSViewRepresentable {
     let url: URL
     
-    func makeUIView(context: Context) -> PDFView {
+    func makeNSView(context: Context) -> PDFView {
         let pdfView = PDFView()
-        let didStartAccessing = url.startAccessingSecurityScopedResource()
         pdfView.document = PDFDocument(url: url)
-        if didStartAccessing {
-            url.stopAccessingSecurityScopedResource()
-        }
         pdfView.autoScales = true
         return pdfView
     }
     
-    func updateUIView(_ uiView: PDFView, context: Context) {}
+    func updateNSView(_ nsView: PDFView, context: Context) {}
 }
 
 struct CharacterSheetView_Previews: PreviewProvider {
@@ -188,7 +185,7 @@ struct CharacterSheetView_Previews: PreviewProvider {
             nuyen: 5000,
             gear: ["Pistol": 1],
             qualities: ["Low-Light Vision": 1],
-            contacts: ["Fixer": 3],
+            contacts: ["Fixer": Contact(name: "Fixer", connection: 2, loyalty: 3)],
             spells: ["Fireball"],
             complexForms: [],
             powers: [:],
@@ -204,8 +201,8 @@ struct CharacterSheetView_Previews: PreviewProvider {
         .environmentObject({
             let dm = DataManager()
             dm.books = [
-                Book(code: "core", name: "Shadowrun Core Rulebook"),
-                Book(code: "sg", name: "Street Grimoire")
+                Book(name: "Shadowrun Core Rulebook", code: "core"),
+                Book(name: "Street Grimoire", code: "sg")
             ]
             dm.selectedSourcebooks = ["core": URL(fileURLWithPath: "/path/to/core.pdf")]
             return dm

@@ -82,7 +82,8 @@ struct AttributesView_Previews: PreviewProvider {
             echoes: [],
             licenses: [:],
             lifestyle: nil,
-            martialArts: []
+            martialArts: [],
+            sourcebooks: []
         )))
         .environmentObject(DataManager())
     }
