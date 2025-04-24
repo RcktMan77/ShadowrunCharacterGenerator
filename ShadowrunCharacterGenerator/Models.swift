@@ -26,6 +26,7 @@ struct Character: Codable {
     var licenses: [String: Int] // e.g., ["Firearms License": 1] for quantity
     var lifestyle: String? // Lifestyle name
     var martialArts: [String] // List of martial arts techniques
+    var sourcebooks: [String]
 }
 
 // Priority data (from priorities.json)

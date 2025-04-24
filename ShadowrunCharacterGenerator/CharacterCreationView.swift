@@ -5,109 +5,108 @@
 //  Created by Zach Davis on 4/23/25.
 //
 
+import SwiftUI
+
 struct CharacterCreationView: View {
+    @State private var character = Character(
+        name: "",
+        metatype: "",
+        attributes: [:],
+        skills: [:],
+        karma: 0,
+        nuyen: 0,
+        gear: [:],
+        qualities: [:],
+        contacts: [:],
+        spells: [],
+        complexForms: [],
+        powers: [:],
+        mentor: nil,
+        tradition: nil,
+        metamagic: [],
+        echoes: [],
+        licenses: [:],
+        lifestyle: nil,
+        martialArts: [],
+        sourcebooks: []
+    )
+    @State private var currentStep: CreationStep = .priority
+    @State private var isCreationComplete = false
     @EnvironmentObject var dataManager: DataManager
-    @Binding var character: Character
     
     enum CreationStep {
-        case prioritySelection, metatypeSelection, attributesAllocation, skillsAllocation, magicSelection, resourcesAllocation
-    }
-    
-    @State private var step: CreationStep = .prioritySelection
-    @State private var prioritySelection: PrioritySelection?
-    
-    var body: some View {
-        switch step {
-        case .prioritySelection:
-            PrioritySelectionView { selection in
-                prioritySelection = selection
-                step = .metatypeSelection
-            }
-        case .metatypeSelection:
-            MetatypeSelectionView(prioritySelection: prioritySelection!) { metatype in
-                character.metatype = metatype
-                step = .attributesAllocation
-            }
-        case .attributesAllocation:
-            AttributesAllocationView(prioritySelection: prioritySelection!, attributes: $character.attributes) {
-                step = .skillsAllocation
-            }
-        case .skillsAllocation:
-            SkillsAllocationView(prioritySelection: prioritySelection!, skills: $character.skills) {
-                step = .magicSelection
-            }
-        case .magicSelection:
-            MagicSelectionView(prioritySelection: prioritySelection!) {
-                step = .resourcesAllocation
-            }
-        case .resourcesAllocation:
-            ResourcesAllocationView(prioritySelection: prioritySelection!) {
-                // Creation complete
-            }
-        }
-    }
-}
-
-// MetatypeSelectionView.swift
-struct MetatypeSelectionView: View {
-    @EnvironmentObject var dataManager: DataManager
-    var prioritySelection: PrioritySelection
-    var onSelect: (String) -> Void
-    
-    var body: some View {
-        let availableMetatypes = dataManager.priorityData.Metatype[prioritySelection.metatype.rawValue] ?? []
-        List(availableMetatypes, id: \.metatype) { option in
-            Button(option.metatype) {
-                onSelect(option.metatype)
-            }
-        }
-    }
-}
-
-// AttributesAllocationView.swift
-struct AttributesAllocationView: View {
-    @EnvironmentObject var dataManager: DataManager
-    var prioritySelection: PrioritySelection
-    @Binding var attributes: [String: Int]
-    var onComplete: () -> Void
-    
-    @State private var pointsRemaining: Int
-    
-    init(prioritySelection: PrioritySelection, attributes: Binding<[String: Int]>, onComplete: @escaping () -> Void) {
-        self.prioritySelection = prioritySelection
-        self._attributes = attributes
-        self.onComplete = onComplete
-        self._pointsRemaining = State(initialValue: dataManager.priorityData.Attributes[prioritySelection.attributes.rawValue] ?? 0)
-        if attributes.wrappedValue.isEmpty {
-            attributes.wrappedValue = ["Body": 1, "Agility": 1, "Reaction": 1, "Strength": 1, "Willpower": 1, "Logic": 1, "Intuition": 1, "Charisma": 1]
-            self._pointsRemaining = State(initialValue: (dataManager.priorityData.Attributes[prioritySelection.attributes.rawValue] ?? 0) - 8)
-        }
+        case priority, metatype, attributes, skills, magic, resources, qualities, contacts, sourcebooks
     }
     
     var body: some View {
-        Form {
-            ForEach(attributes.keys.sorted(), id: \.self) { attr in
-                HStack {
-                    Text(attr)
-                    Stepper(value: Binding(
-                        get: { attributes[attr] ?? 1 },
-                        set: { newValue in
-                            let delta = newValue - (attributes[attr] ?? 1)
-                            if pointsRemaining >= delta && newValue >= 1 && newValue <= 12 {
-                                attributes[attr] = newValue
-                                pointsRemaining -= delta
-                            }
-                        }
-                    ), in: 1...12) {
-                        Text("\(attributes[attr] ?? 1)")
+        NavigationView {
+            VStack {
+                switch currentStep {
+                case .priority:
+                    PrioritySelectionView(character: $character, onComplete: {
+                        currentStep = .metatype
+                    })
+                case .metatype:
+                    MetatypeSelectionView(character: $character, onComplete: {
+                        currentStep = .attributes
+                    })
+                case .attributes:
+                    AttributesAllocationView(character: $character, onComplete: {
+                        currentStep = .skills
+                    })
+                case .skills:
+                    SkillsAllocationView(character: $character, onComplete: {
+                        currentStep = .magic
+                    })
+                case .magic:
+                    MagicSelectionView(character: $character, onComplete: {
+                        currentStep = .resources
+                    })
+                case .resources:
+                    ResourcesAllocationView(character: $character, onComplete: {
+                        currentStep = .qualities
+                    })
+                case .qualities:
+                    QualitiesSelectionView(character: $character, onComplete: {
+                        currentStep = .contacts
+                    })
+                case .contacts:
+                    ContactsSelectionView(character: $character, onComplete: {
+                        currentStep = .sourcebooks
+                    })
+                case .sourcebooks:
+                    SourcebookSelectionView(character: $character, onComplete: {
+                        isCreationComplete = true
+                    })
+                }
+                Button("Next") {
+                    switch currentStep {
+                    case .priority: currentStep = .metatype
+                    case .metatype: currentStep = .attributes
+                    case .attributes: currentStep = .skills
+                    case .skills: currentStep = .magic
+                    case .magic: currentStep = .resources
+                    case .resources: currentStep = .qualities
+                    case .qualities: currentStep = .contacts
+                    case .contacts: currentStep = .sourcebooks
+                    case .sourcebooks: isCreationComplete = true
                     }
                 }
+                .buttonStyle(.borderedProminent)
+                .padding()
+                .disabled(currentStep == .sourcebooks && character.sourcebooks.isEmpty)
             }
-            Text("Points Remaining: \(pointsRemaining)")
-            Button("Next") {
-                onComplete()
+            .navigationTitle("Character Creation")
+            .sheet(isPresented: $isCreationComplete) {
+                CharacterSheetView(character: character)
             }
-            .disabled(pointsRemaining > 0)
         }
+    }
+}
+
+struct CharacterCreationView_Previews: PreviewProvider {
+    static var previews: some View {
+        CharacterCreationView()
+            .environmentObject(DataManager())
     }
 }

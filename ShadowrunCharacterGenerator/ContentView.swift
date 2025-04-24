@@ -28,7 +28,7 @@ struct ContentView: View {
         echoes: [],
         licenses: [:],
         lifestyle: nil,
-        martialArts: []
+        martialArts: [], sourcebooks: <#[String]#>
     )
     @State private var step: CreationStep = .priority
     
