@@ -29,44 +29,9 @@
 		5763B0E22DB98BA800FCEE83 /* ShadowrunCharacterGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowrunCharacterGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5763B1802DB9B0BB00FCEE83 /* Exceptions for "ShadowrunCharacterGenerator" folder in "ShadowrunCharacterGeneratorUITests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Data/armor.json,
-				Data/bioware.json,
-				Data/books.json,
-				Data/complexforms.json,
-				Data/contacts.json,
-				Data/cyberware.json,
-				Data/echoes.json,
-				Data/gear.json,
-				Data/improvements.json,
-				Data/licenses.json,
-				Data/lifestyles.json,
-				Data/martialarts.json,
-				Data/mentors.json,
-				Data/metamagic.json,
-				Data/metatypes.json,
-				Data/powers.json,
-				Data/priorities.json,
-				Data/programs.json,
-				Data/qualities.json,
-				Data/skills.json,
-				Data/spells.json,
-				Data/traditions.json,
-				Data/weapons.json,
-			);
-			target = 5763B0E12DB98BA800FCEE83 /* ShadowrunCharacterGeneratorUITests */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5763B0CC2DB98BA700FCEE83 /* ShadowrunCharacterGenerator */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				5763B1802DB9B0BB00FCEE83 /* Exceptions for "ShadowrunCharacterGenerator" folder in "ShadowrunCharacterGeneratorUITests" target */,
-			);
 			path = ShadowrunCharacterGenerator;
 			sourceTree = "<group>";
 		};
